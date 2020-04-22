@@ -4,7 +4,7 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/images/Epigoni.png" }]],
   plugins: ["@vuepress/back-to-top", "@vuepress/medium-zoom"],
   themeConfig: {
-    repo: "rizki-agyadata/epigoni",
+    repo: "rizki-agyadata/epigoni-docs",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help us improve this page!",
