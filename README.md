@@ -3,8 +3,7 @@
     <img src="https://github.com/rizki-agyadata/epigoni-docs/blob/master/docs/.vuepress/public/images/Epigoni.png" alt="logo">
   </a>
 </p>
-
-# epigoni-docs
+<h1 align="center">epigoni-docs</h1>
 
 Situs Dokumentasi Epigoni.
 
