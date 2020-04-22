@@ -14,5 +14,3 @@ features:
     details: Unified data model serta antarmuka pengguna yang profesional, konsisten dan intuitif.
 footer: Copyright © 2018-present Agyadata
 ---
-
-# Epigoni Documentation
