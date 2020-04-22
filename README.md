@@ -26,7 +26,7 @@ npm install
 
 ## Scripts
 
-Menjalankan situs di lokal:
+Menjalankan di lokal:
 
 ```bash
 yarn docs:dev
