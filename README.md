@@ -12,28 +12,40 @@ Situs Dokumentasi Epigoni.
 
 ## Instal
 
-menginstal dependensi
+Menginstal dependensi:
 
-`yarn install`
+```bash
+yarn install
+```
 
 atau
 
-`atau npm install`
+```bash
+npm install
+```
 
 ## Scripts
 
 Menjalankan situs di lokal:
 
-`yarn docs:dev`
+```bash
+yarn docs:dev
+```
 
 atau
 
-`npm docs:dev`
+```bash
+npm docs:dev
+```
 
 Untuk menghasilkan aset statis:
 
-`yarn docs:build`
+```bash
+yarn docs:build
+```
 
 atau
 
-`npm docs:build`
+```bash
+npm docs:build
+```
