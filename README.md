@@ -1,3 +1,5 @@
+![Epigoni Logo](docs/.vuepress/public/images/Epigoni.png)
+
 # epigoni-docs
 
 Situs Dokumentasi Epigoni.
