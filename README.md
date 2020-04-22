@@ -4,13 +4,21 @@
 
 Situs Dokumentasi Epigoni.
 
-## Prasyarat:
+## Prasyarat
 
 - NodeJS
 - Yarn (rekomendasi) atau NPM
 - Git
 
-## Cara menjalankan di lokal:
+## Instal
 
-1. Instal semua dependensi, dengan menjalankan perintah `yarn install` atau `npm install`
-2. Jalankan perintah `yarn docs:build`
+```bash
+yarn install atau npm install # menginstal dependensi
+```
+
+## Scripts
+
+```bash
+yarn docs:dev atau npm docs:dev # menjalankan situs di lokal
+yarn docs:build atau npm docs:build # untuk menghasilkan aset statis
+```
