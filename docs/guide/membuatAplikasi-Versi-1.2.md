@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Membuat Aplikasi (Versi 1.2)
 
 ## Membuat Aplikasi Baru

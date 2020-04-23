@@ -1,4 +1,8 @@
-# Referensi 
+---
+sidebarDepth: 3
+---
+
+# Referensi
 
 ## Pengaturan Aplikasi
 

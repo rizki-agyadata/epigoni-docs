@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Menu dan Pengaturan Aplikasi
 
 Berikut adalah petunjuk menu dan pengaturan aplikasi pada Portal Epigoni.
@@ -36,7 +40,11 @@ Menu **Config** adalah untuk melakukan pengaturan konfigurasi apikasi Epigoni.
 
 Menu **Project** adalah untuk melakukan pengaturan _project file_ Epigoni.
 
+### System Connection
+
 ![Project Editor - System](/images/projectFileEditor_System.png)
+
+### Application Connection
 
 ![Project Editor - Application](/images/projectFileEditor_App.png)
 

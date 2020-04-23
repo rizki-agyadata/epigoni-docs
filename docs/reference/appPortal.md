@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Portal Aplikasi
 
 Portal Aplikasi (Aplication Portal) adalah beranda di mana aplikasi Epigoni dibuat, dipasang, dihapus, dan melakukan pengaturan lainnya. Portal Aplikasi akan tampil pertama kali setelah menjalankan **Epigoni.exe**.

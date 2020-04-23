@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Apakah Epigoni Itu?
 
 ## Development Tool

@@ -1,8 +1,12 @@
+---
+sidebarDepth: 3
+---
+
 # Arsitektur
 
 ## Development
 
-Pada saat development, definisi aplikasi disimpan dalam bentuk database. Beberapa developer dapat bekerja membentuk sebuah aplikasi secara bersama-sama dengan mengakses database definisi aplikasi yang sama.  
+Pada saat development, definisi aplikasi disimpan dalam bentuk database. Beberapa developer dapat bekerja membentuk sebuah aplikasi secara bersama-sama dengan mengakses database definisi aplikasi yang sama.
 
 ![Arsitektur development](/images/arsitektur-development.svg)
 
