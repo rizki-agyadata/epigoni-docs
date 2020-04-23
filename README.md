@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://epigoni.netlify.app/" target="_blank">
+  <a href="https://epigoni-docs.netlify.app/" target="_blank">
     <img src="https://github.com/rizki-agyadata/epigoni-docs/blob/master/docs/.vuepress/public/images/Epigoni.png" alt="logo">
   </a>
 </p>
