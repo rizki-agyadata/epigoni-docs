@@ -4,7 +4,9 @@ sidebarDepth: 3
 
 # Membuat Aplikasi
 
-> **Catatan**: Dokumentasi **Epigoni** versi terbaru masih dalam proses pengerjaan. Untuk **Epigoni versi 1.2** lihat di halam [berikut](/guide/membuatAplikasi-Versi-1.2.md).
+::: warning
+**Catatan**: Dokumentasi **Epigoni** versi terbaru masih dalam proses pengerjaan. Untuk **Epigoni versi 1.2** lihat di halam [berikut](/guide/membuatAplikasi-Versi-1.2.md).
+:::
 
 ## Membuat Aplikasi Baru
 
