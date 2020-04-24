@@ -42,9 +42,13 @@ Menu **Project** adalah untuk melakukan pengaturan _project file_ Epigoni.
 
 ### System Connection
 
+Merupakan pengaturan koneksi ke database sistem.
+
 ![Project Editor - System](/images/projectFileEditor_System.png)
 
 ### Application Connection
+
+Merupakan pengaturan koneksi ke database aplikasi.
 
 ![Project Editor - Application](/images/projectFileEditor_App.png)
 
@@ -52,7 +56,13 @@ Menu **Project** adalah untuk melakukan pengaturan _project file_ Epigoni.
 
 ![Button Clone](/images/btnClone.png)
 
-Menu **Clone** adalah untuk melakukan klon (menggandakan) aplikasi Epigoni.
+Menu **Clone** adalah untuk menggandakan atau menduplikasi aplikasi Epigoni. Secara _default_ konfigurasi aplikasi akan sama persis diduplikasi, kecuali _field_ **_Description_** pada form **Clone Application** bisa diubah pada saat proses duplikasi berlangsung.
+
+Setelah menu di-klik akan tampil form seperti berikut:
+
+![Clone Application](/images/clone-app.png)
+
+Kolom _Description_ terisi sesuai dengan deskripsi aplikasi yang di-_clone_, anda bisa mengubahnya, kemudian klik tombol **OK** untuk melanjutkan proses _clone_.
 
 ## Edit
 
