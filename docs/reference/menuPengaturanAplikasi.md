@@ -64,6 +64,10 @@ Setelah menu di-klik akan tampil form seperti berikut:
 
 Kolom _Description_ terisi sesuai dengan deskripsi aplikasi yang di-_clone_, anda bisa mengubahnya, kemudian klik tombol **OK** untuk melanjutkan proses _clone_.
 
+::: tip
+Proses **Clone** hanya menduplikasi aplikasi pada portal Epigoni, tidak menduplikasi _file_ `.epf`.
+:::
+
 ## Edit
 
 ![Button Edit](/images/btnEdit.png)
