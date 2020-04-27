@@ -65,12 +65,24 @@ Setelah menu di-klik akan tampil form seperti berikut:
 Kolom _Description_ terisi sesuai dengan deskripsi aplikasi yang di-_clone_, anda bisa mengubahnya, kemudian klik tombol **OK** untuk melanjutkan proses _clone_.
 
 ::: tip
-Proses **Clone** hanya menduplikasi aplikasi pada portal Epigoni, tidak menduplikasi _file_ `.epf`.
+Proses **Clone** hanya menduplikasi aplikasi pada portal Epigoni, tidak menduplikasi _file_ `.epf` (Epigoni Project File).
 :::
 
 ## Edit
 
 ![Button Edit](/images/btnEdit.png)
+
+Menu **Edit** adalah untuk mengubah _file_ `.epf`, deskripsi, dan icon aplikasi.
+
+![Edit Application](/images/edit-app.png)
+
+### Ubah Icon
+
+Untuk mengubah **Icon** aplikasi, klik kanan pada area **Icon** kemudian pilih **Load**.
+
+![Edit Application - Icon](/images/edit-app-icon.png)
+
+Kemudian..
 
 ## Reload
 
