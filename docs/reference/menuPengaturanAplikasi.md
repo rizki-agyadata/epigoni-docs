@@ -18,6 +18,8 @@ Menu **Run** adalah untuk menjalankan aplikasi Epigoni. Setelah menu diklik maka
 
 ![Form Login](/images/formLogin.png)
 
+Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada bagian [Auto Login](#auto-login).
+
 ## Develop
 
 ![Button Develop](/images/btnDevelop.png)
@@ -26,6 +28,8 @@ Menu **Develop** adalah untuk masuk ke mode pengembangan aplikasi. Setelah menu 
 
 ![Form Login](/images/formLogin.png)
 
+Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada bagian [Auto Login](#auto-login).
+
 ## Config
 
 ![Button Config](/images/btnConfig.png)
@@ -33,6 +37,16 @@ Menu **Develop** adalah untuk masuk ke mode pengembangan aplikasi. Setelah menu 
 Menu **Config** adalah untuk melakukan pengaturan konfigurasi apikasi Epigoni.
 
 ![Form Config](/images/formConfig.png)
+
+### Auto Login
+
+Untuk dapat menjalankan aplikasi tanpa melakukan proses _login_ secara manual, isi bagian **Developer Auto Login** untuk mode [Develop](#develop)
+
+![Developer Auto Login](/images/dev-aut-log.png)
+
+Dan isi **User Auto Login** untuk mode [Run](#run)
+
+![User Auto Login](/images/usr-aut-log.png)
 
 ## Project
 
