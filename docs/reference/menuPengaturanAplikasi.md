@@ -82,12 +82,26 @@ Untuk mengubah **Icon** aplikasi, klik kanan pada area **Icon** kemudian pilih *
 
 ![Edit Application - Icon](/images/edit-app-icon.png)
 
-Kemudian..
+Pilih _icon_ yang diinginkan, kemudian klik tombol **Open**.
+
+![Edit Application - Icon - Images](/images/edit-app-icon-images.png)
 
 ## Reload
 
+Menu **Reload** adalah untuk memuat ulang aplikasi pada portal Epigoni.
+
 ![Button Reload](/images/btnReload.png)
+
+Klik **Ok** pada dialog konfirmasi yang muncul.
+
+![Reload Application](/images/reload-app.png)
 
 ## Remove
 
+Menu **Remove** adalah untuk menghapus aplikasi pada portal Epigoni.
+
 ![Button Remove](/images/btnRemove.png)
+
+Klik **Ok** pada dialog konfirmasi yang muncul.
+
+![Remove Application](/images/remove-app.png)
