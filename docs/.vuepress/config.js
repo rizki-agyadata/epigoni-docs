@@ -12,7 +12,8 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
-      { text: "Reference", link: "/reference/" },
+      { text: "Portal", link: "/portal/" },
+      { text: "Metadata", link: "/metadata/" },
     ],
     sidebar: {
       "/guide/": [
@@ -23,7 +24,16 @@ module.exports = {
         "membuatAplikasi",
         "membuatAplikasi-Versi-1.2",
       ],
-      "/reference/": ["", "appPortal", "menuPengaturanAplikasi"],
+      "/portal/": ["", "appPortal", "menuPengaturanAplikasi"],
+      "/metadata/": [
+        "",
+        "builder",
+        "application",
+        "data",
+        "models",
+        "presentations",
+        "actions",
+      ],
       // fallback
       "/": [""],
     },

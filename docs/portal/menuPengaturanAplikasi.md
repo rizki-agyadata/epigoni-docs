@@ -14,21 +14,25 @@ Klik kanan pada aplikasi, maka kemudian akan tampil menu pengaturan aplikasi sep
 
 ![Button Run](/images/btnRun.png)
 
-Menu **Run** adalah untuk menjalankan aplikasi Epigoni. Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
+Menu **Run** adalah untuk menjalankan aplikasi Epigoni.
+
+Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
 
 ![Form Login](/images/formLogin.png)
 
-Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada bagian [Auto Login](#auto-login).
+Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada menu [Config](#config) pada bagian [Auto Login](#auto-login).
 
 ## Develop
 
 ![Button Develop](/images/btnDevelop.png)
 
-Menu **Develop** adalah untuk masuk ke mode pengembangan aplikasi. Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
+Menu **Develop** adalah untuk mejalankan aplikasi Epigoni dalam mode pengembang aplikasi.
+
+Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
 
 ![Form Login](/images/formLogin.png)
 
-Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada bagian [Auto Login](#auto-login).
+Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada menu [Config](#config) pada bagian [Auto Login](#auto-login).
 
 ## Config
 
