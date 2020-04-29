@@ -20,7 +20,9 @@ Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
 
 ![Form Login](/images/formLogin.png)
 
+::: tip
 Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada menu [Config](#config) pada bagian [Auto Login](#auto-login).
+:::
 
 ## Develop
 
@@ -32,7 +34,11 @@ Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
 
 ![Form Login](/images/formLogin.png)
 
+Maka pengguna dapat mengakses [Metadata](../metadata/) aplikasi **Epigoni**.
+
+::: tip
 Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada menu [Config](#config) pada bagian [Auto Login](#auto-login).
+:::
 
 ## Config
 
