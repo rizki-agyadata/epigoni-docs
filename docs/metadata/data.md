@@ -8,9 +8,13 @@ sidebarDepth: 3
 
 ![Tombol Connections](/images/btn-con.png)
 
+![Connections](/images/app-connections.png)
+
 ## datasets
 
 ![Tombol Datasets](/images/btn-dts.png)
+
+![Datasets](/images/app-datasets.png)
 
 ## Commands
 
