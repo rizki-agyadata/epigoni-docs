@@ -20,10 +20,16 @@ sidebarDepth: 3
 
 ![Tombol Commands](/images/btn-cmd.png)
 
+![Commands](/images/app-commands.png)
+
 ## Lookups
 
 ![Tombol Lookups](/images/btn-lkp.png)
 
+![Lookups](/images/app-lookups.png)
+
 ## SQL Values
 
 ![Tombol SQL Values](/images/btn-sql-val.png)
+
+![SQL Values](/images/app-sql-values.png)
