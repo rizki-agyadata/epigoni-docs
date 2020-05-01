@@ -8,9 +8,15 @@ sidebarDepth: 3
 
 ![Tombol Connections](/images/btn-con.png)
 
+**Connections** adalah modul untuk mengelola koneksi _database_ transaksi.
+
+Berikut adalah tampilan form **Connections**
+
 ![Connections](/images/app-connections.png)
 
-## datasets
+![Connection Editor](/images/app-conn-editor.png)
+
+## Datasets
 
 ![Tombol Datasets](/images/btn-dts.png)
 
