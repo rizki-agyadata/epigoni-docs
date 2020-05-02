@@ -18,11 +18,15 @@ Berikut adalah contoh tampilan form **Application Info**
 
 ![Roles](/images/app-roles.png)
 
+![Role Form](/images/app-role-form.png)
+
 ## Users
 
 ![Tombol Users](/images/btn-users.png)
 
 ![Users](/images/app-users.png)
+
+![User Form](/images/app-user-form.png)
 
 ## Menus
 
