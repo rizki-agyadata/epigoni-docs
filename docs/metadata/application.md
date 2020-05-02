@@ -34,6 +34,8 @@ Berikut adalah contoh tampilan form **Application Info**
 
 ![Menus - Ribbon](/images/app-menus-ribbon.png)
 
+![Menu Form](/images/app-menu-form.png)
+
 ## Icons
 
 ![Tombol Icons](/images/btn-icons.png)
