@@ -4,8 +4,8 @@ sidebarDepth: 3
 
 # Membuat Aplikasi
 
-::: warning Catatan
-Dokumentasi **Epigoni** versi terbaru masih dalam proses pengerjaan. Untuk **Epigoni versi 1.2** lihat di halam [berikut](/guide/membuatAplikasi-Versi-1.2.md).
+::: danger Catatan
+Dokumentasi **Epigoni** versi 1.5.5.1 ini masih dalam proses penyesuaian. Untuk dokumentasi **Epigoni** versi sebelumnya, lihat di halaman [berikut](/guide/membuatAplikasi-Versi-1.2.md).
 :::
 
 ## Membuat Aplikasi Baru
