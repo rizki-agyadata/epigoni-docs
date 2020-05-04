@@ -100,159 +100,61 @@ Lakukan proses login dengan **User Name**: `DEVELOPER` dan **Password**: `dev`.
 
 ### Membuat Koneksi Database
 
-Sebelum membuat model data, Anda harus membuat koneksi ke database yang akan diakses oleh aplikasi. Sebuah proyek aplikasi Epigoni baru sudah memiliki satu buah koneksi database, yaitu koneksi ke database definisi aplikasi, bernama DEFAULT. Koneksi DEFAULT tidak ada dalam daftar koneksi, tetapi dapat digunakan.
+Sebelum membuat model data, Anda harus membuat koneksi ke _database_ yang akan diakses oleh aplikasi. Sebuah proyek aplikasi Epigoni baru sudah memiliki satu buah koneksi _database_, yaitu koneksi ke _database_ definisi aplikasi, bernama **DEFAULT**. Koneksi _DEFAULT_ tidak ada dalam daftar koneksi, tetapi dapat digunakan.
 
-Untuk melihat daftar koneksi database yang ada, pada tab Metadata, klik tombol Connection.
+Untuk melihat daftar koneksi _database_ yang ada, pada tab **Metadata**, klik menu **Connection**.
 
-Untuk menambahkan koneksi ke database klik tombol Add. Beri nama koneksi pada edit box Connection Name dan pilih Connection Type dengan jenis RDBMS dari database yang ingin diakses.
+![Tombol Connections](/images/btn-con.png)
 
-Lengkapi parameter dari koneksi seperlunya. Misal isi Database dengan nama database atau alias dari database yang akan diakses, isi User_Name dan Password dengan nama user dan password untuk login ke database tersebut.
+![Connections](/images/app-connections.png)
 
-Lakukan test koneksi dengan menekan tombol Test Connection, sebelum menekan tombol OK.
+Untuk menambahkan koneksi ke _database_ klik tombol **Add**. Beri nama koneksi pada _edit box_ **Connection Name** dan pilih **Connection Type** dengan jenis **RDBMS** dari _database_ yang ingin diakses.
 
-Tombol Edit digunakan untuk mengedit koneksi jika Anda ingin melakukan perubahan.
+Lengkapi parameter dari koneksi seperlunya. Misal isi _Database_ dengan nama _database_ atau alias dari _database_ yang akan diakses.
 
-Tombol Delete digunakan untuk menghapus koneksi.
+![Connection Editor](/images/app-conn-editor.png)
 
-### ~~Membuat Database (khusus untuk Firebird)~~
+Lakukan test koneksi dengan menekan tombol **Test Connection**, sebelum menekan tombol **OK**.
 
 ### Membuat Obyek-Obyek Database
 
-Pembuatan obyek-obyek database seperti membuat table, trigger, stored procedure dll, dapat dilakukan dengan menggunakan software alat bantu yang disediakan oleh masing-masing RDBMS. Epigoni sendiri akan dilengkapi dengan alat bantu untuk membuat obyek-obyek database khusus untuk Firebird.
+Pembuatan obyek-obyek _database_ seperti membuat _table_, _trigger_, _stored procedure_ dll, dapat dilakukan dengan menggunakan _software_ alat bantu yang disediakan oleh masing-masing **RDBMS**. Epigoni sendiri akan dilengkapi dengan alat bantu untuk membuat obyek-obyek _database_ khusus untuk Firebird.
 
 ## Membuat Model Database
 
 ### Membuat Data Set
 
-Untuk melihat daftar definisi Data Set, pada tab Metadata, klik tombol Dataset.
+Untuk melihat daftar definisi **Data Set**, pada tab **Metadata**, klik tombol **Dataset**.
 
-Untuk membuat definisi data set baru, klik tombol Add untuk menampilkan data set editor.
+![Tombol Datasets](/images/btn-dts.png)
+
+![Datasets](/images/app-datasets.png)
+
+Untuk membuat definisi _data set_ baru, klik tombol **Add** untuk menampilkan _data set editor_.
+
+![Dataset Emp.](/images/dst-emp.png)
 
 Data yang diisikan:
 
-- Dataset Name, diisi dengan nama dataset.
-- Dataset Title, diisi dengan judul dataset.
-- Connection, diisi dengan koneksi database yang akan diakses, dipilih dari daftar koneksi yang sudah dibuat.
-- Command Type, diisi degan memilih salah satu jenis Command Type:
-  - Query, Command Text diisi dengan perintah SQL Select.
-  - Table, Command Text diisi dengan nama tabel.
-  - Stored Procedure, Command Text diisi dengan perintah SQL Select yang mengandung selectable stored procedure.
-- Update Mode, diisi dengan memilih salah satu mode update:
-  - Key Fields, data set akan diupdate berdasarkan value awal dari satu atau lebih key field yang sebelumnya telah didefinisikan.
-  - Change Fields, data set akan diupdate berdasarkan value awal dari field-field yang diubah nilainya oleh user pengguna aplikasi.
-  - All Fields, data set akan diupdate berdasarkan value awal seluruh field dari data set.
-  - Read Only, data set tidak akan diupdate.
-- Update Table, diisi dengan nama tabel yang akan diupdate ketika data set diupdate.
-- Packed Records, diisi dengan jumlah satuan record yang akan di-fetch dari database ketika data dibutuhkan. Jika jumlahnya -1 maka semua record akan di-fetch seluruhnya. Jika nilainya >0 maka ketika dibutuhkan, data di-fetch dengan satuan sebesar jumlah tersebut.
-- Max Blob Size, diisi dengan ukuran maksimal field dengan tipe BLOB (Binary Large Object) dalam satuan KB. Jika nilainya -1, maka tidak ada batasan ukuran.
-- Fetch Blobs On Demand, jika di cek, maka field BLOB yang ada pada data set tidak akan langsung di-fetch. Field tersebut hanya akan di-fetch jika diperlukan, misalnya ketika akan ditampilkan ke layar.
-- Fetch Details On Demand, jika di cek, maka jika data set direlasikan dengan data set lain dengan tipe relasi Master-Detail, data yang berasal dari data set detail hanya akan di-fetch ketika diperlukan.
+- **Dataset Name**, diisi dengan nama _dataset_.
+- **Dataset Title**, diisi dengan judul _dataset_.
+- **Connection**, diisi dengan koneksi _database_ yang akan diakses, dipilih dari daftar koneksi yang sudah dibuat.
+- **Command Type**, diisi degan memilih salah satu jenis **Command Type**:
+  - **Query**, _Command Text_ diisi dengan perintah **SQL Select**.
+  - **Table**, _Command Text_ diisi dengan nama _tabel_.
+  - **Stored Procedure**, _Command Text_ diisi dengan perintah _SQL Select_ yang mengandung _selectable stored procedure_.
+- **Update Mode**, diisi dengan memilih salah satu _mode update_:
+  - **Key Fields**, _data set_ akan di-_update_ berdasarkan _value_ awal dari satu atau lebih _key field_ yang sebelumnya telah didefinisikan.
+  - **Change Fields**, _data set_ akan di-_update_ berdasarkan _value_ awal dari _field-field_ yang diubah nilainya oleh _user_ (pengguna) aplikasi.
+  - **All Fields**, _data set_ akan di-_update_ berdasarkan _value_ awal seluruh _field_ dari _data set_.
+  - **Read Only**, _data set_ tidak akan di-_update_.
+- **Update Table**, diisi dengan nama _tabel_ yang akan di-_update_ ketika data set di-_update_.
+- **Packed Records**, diisi dengan jumlah satuan _record_ yang akan di-_fetch_ dari _database_ ketika data dibutuhkan. Jika jumlahnya -1 maka semua _record_ akan di-_fetch_ seluruhnya. Jika nilainya >0 maka ketika dibutuhkan, data di-_fetch_ dengan satuan sebesar jumlah tersebut.
+- **Max Blob Size**, diisi dengan ukuran maksimal _field_ dengan tipe **BLOB** _(Binary Large Object)_ dalam satuan **KB**. Jika nilainya -1, maka tidak ada batasan ukuran.
+- **Fetch Blobs On Demand**, jika di cek, maka _field BLOB_ yang ada pada _data set_ tidak akan langsung di-_fetch_. _Field_ tersebut hanya akan di-_fetch_ jika diperlukan, misalnya ketika akan ditampilkan ke layar.
+- **Fetch Details On Demand**, jika di cek, maka jika _data set_ direlasikan dengan _data set_ lain dengan tipe relasi **Master-Detail**, data yang berasal dari _data set detail_ hanya akan di-_fetch_ ketika diperlukan.
 
-Ada definisi lain yang harus di-set yang berada pada tab-tab bagian bawah editor.
+Ada definisi lain yang harus di-_set_ yang berada pada tab-tab bagian bawah editor.
 
-- Command Text, diisi sesuai dengan Command Type, seperti pada penjelasan di atas. Isi dari Command Text adalah inti dari definisi data set, mendeskripsikan data yang ingin dihasilkan. Command Type umumnya adalah berupa query, jadi Command Text lebih sering identik dengan perintah SQL Select. Di sebelah kanan editor Command Text terdapat alat bantu untuk membentuk SQL. Anda bisa mencoba men-drag salah satu tabel yang terdapat pada daftar tabel ke editor Command Text.
-- Field, berisi daftar field yang dibentuk oleh Command Text. Daftar field harus dibentuk, baik secara manual satu demi satu atau secara otomatis lewat tombol Generate All Fields yang telah disediakan. Anda bisa mengeset attribut dari setiap field yang didefinisikan.
-- Parameter, berisi daftar dari parameter yang dibutuhkan Command Text, akan dijelaskan kemudian.
-- Index & Group, berisi definisi pengurutan dan pengelompokkan data, akan dijelaskan kemudian.
-- Aggregate, berisi definisi fungsi-fungsi aggregate yang ingin dikalkulasi dari data, akan dijelaskan kemudian.
-- Constraint, berisi daftar batasan-batasan nilai yang dapat dimasukkan ke dalam sebuh field, akan dijelaskan kemudian.
-- Event, untuk menuliskan kode script yang akan dieksekusi ketika event tertentu dari data set terjadi, akan dijelaskan kemudian.
-- Description, diisi dengan deskripsi dari data set yang bersangkutan untuk kepentingan dokumentasi.
-
-Setelah data set didefinisikan Anda dapat melihat preview dari data set tersebut dengan meng-klik tombol Preview atau klik tombol Run jika hanya ingin mengeksekusi Command Text-nya saja.
-
-Tampilan Preview
-
-Tampilan Run
-
-### Membuat Data Package
-
-Untuk melihat daftar definisi Data Package, pada tab Metadata, klik tombol Data Package.
-
-Untuk membuat definisi Data Package baru, klik tombol Add untuk menampilkan Data Package editor.
-
-Disamping dengan cara diatas, untuk membuat Data Package dari Dataset yang telah dibuat, epigoni menyediakan juga cara yang lebih sederhana sebagai berikut:
-
-1. Masuk daftar definisi Dataset
-2. Sorot definisi Dataset yang akan dibuat definisi Data Package
-3. Klik kanan pada definisi Dataset yang akan dibuat definisi Data Package
-4. Pilih salah satu menu yang muncul, misal: Create Data Package
-5. Isikan nama untuk definisi Data Package yang sedang dibuat, tekan tombol OK
-6. Proses membuat definisi Data Package sudah berhasil, tekan tombol OK
-7. Untuk hasilnya bisa dilihat di daftar definisi Data Package, pada tab Metadata, klik tombol Data Package.
-
-## Membuat Presentasi
-
-### Membuat Form
-
-Untuk melihat daftar definisi Form, pada tab Metadata, klik menu Form.
-
-Untuk membuat definisi form baru, klik tombol Add untuk menampilkan Form Editor.
-
-### Membuat Report
-
-Untuk melihat daftar definisi Report, pada tab Metadata, klik menu Report.
-
-Untuk membuat definisi form baru, klik tombol Add untuk menampilkan Form Editor.
-
-## Merancang Menu Aplikasi
-
-### Membuat Action
-
-Pembuatan action ini nantinya akan dihubungkan ke menu pada aplikasi untuk bisa dijalankan.
-
-Untuk membuat Action ada 2 Cara, yaitu :
-
-Cara pertama :
-
-Jika Dataset yang akan dibuat action sudah dibuat maka pada daftar Dataset, pilih Dataset yang akan dibuat actionnya kemudian klik kanan, terus pilih Create Data Package, Form and Action.
-
-Cara kedua :
-
-Jika Data Package yang akan dibuat action sudah dibuat maka pada daftar Data Package, pilih Data Package yang akan dibuat actionnya kemudian klik kanan, terus pilih Create Form and Action.
-
-Action yang telah berhasil dibuat bisa dilihat didaftar Action
-
-Pada daftar Action ini dilengkapi dengan tombol Execute yang berfungsi untuk melihat hasil dari masing-masing Action yang ada didaftar Action
-
-### Membuat Menu
-
-Untuk mendefinisikan menu pada aplikasi, Epigoni menyediakan beberapa jenis menu. Pada dasarnya menu aplikasi yang dibentuk ada dua tipe menu aplikasi yaitu menu berbasis ribbon dan menu tanpa ribbon.
-
-Epigoni menyediakan 4 buah jenis menu:
-
-Ribbon Menu. Bila ribbon menu ada isinya berarti aplikasi akan tampil dengan menu berbasis Ribbon. Ribbon terdiri atas minimal 3 level, yaitu Tab, Group dan Menu. Dua level pertama tidak dapat diisi dengan action, melainkan membentuk Tab dan Group. Level ke tiga dan selanjutnya (tidak terbatas) dapat diisi dengan action.
-
-Application Menu. Pada menu berbasis ribbon, application menu akan muncul sebagai application menu-nya ribbon. Pada menu tanpa ribbon, maka application menu akan menjadi Menu Bar utama dari aplikasi. Level tree Application menu tidak dibatasi.
-
-Tool Bar. Pada menu berbasis ribbon, menu akan tampil dalam Quick Access Toolbar. Pada menu tanpa ribbon, tool bar menu akan tampil sebagai Tool Bar di bawah Menu Bar. Level tree Tool Bar tidak dibatasi.
-
-Side Menu, adalah menu yang akan muncul disamping. Level tree Side Menu dibatasi minimal dan maksimal 2.
-
-#### Add
-
-Untuk menambahkan item menu yang sejajar (sibling).
-
-Data yang diisikan adalah Caption, Hint, Action, serta Image. Untuk memilih image gunakan klik-kanan.
-
-Bila Caption diisi dengan '-' , maka item menu akan menjadi separator.
-
-#### Add Child
-
-Untuk menambahkan item menu yang menjadi sub menu dari item menu yang dipilih.
-
-#### Edit
-
-Untuk mengubah item menu.
-
-#### Delete
-
-Untuk menghapus item menu.
-
-#### Up
-
-Untuk menggeser item menu ke atas dalam level yang sama.
-
-#### Down
-
-Untuk menggeser item menu ke bawah dalam level yang sama.
+- **Command Text**, diisi sesuai dengan _Command Type_, seperti pada penjelasan di atas. Isi dari **Command Text** adalah inti dari definisi _data set_, mendeskripsikan data yang ingin dihasilkan. _Command Type_ umumnya adalah berupa _query_, jadi **Command Text** lebih sering identik dengan perintah **SQL Select**. Di sebelah kanan _editor Command Text_ terdapat alat bantu untuk membentuk SQL. Anda bisa mencoba men-_drag_ salah satu tabel yang terdapat pada daftar tabel ke editor Command Text.
+- **Field**, berisi daftar field yang dibentuk oleh Command Text. Daftar field harus dibentuk, baik secara manual satu demi satu atau secara otomatis lewat tombol Generate All Fields yang telah disediakan. Anda bisa mengeset attribut dari setiap field yang didefinisikan.
