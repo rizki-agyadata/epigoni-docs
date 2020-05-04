@@ -74,15 +74,29 @@ Setelah semua informasi yang diperlukan telah diisi, klik tombol **OK**. Epigoni
 
 ~~Proses pembuatan aplikasi baru telah selesai. Anda bisa memulai pendefinisian aplikasi.~~
 
+## Register Application
+
+Pada **Epigoni Application Portal**, klik tombol **Register Application**
+
+![Button Reg. App.](/images/btnRegApp.svg)
+
+Pilih _file_ ".epf" pada direktori komputer, kemudian klik tombol **Open**.
+
+![Open .epf](/images/openEpf.svg)
+
+Aplikasi sudah terdaftar pada **Epigoni Application Portal**
+
+![Chinook App](/images/contoh-chinook-app.png)
+
+Klik kanan pada aplikasi, kemudian klik menu **Develop**.
+
+![Button Develop](/images/btnDevelop.png)
+
+Lakukan proses login dengan **User Name**: `DEVELOPER` dan **Password**: `dev`.
+
+![Form Login](/images/formLogin.png)
+
 ## Menyiapkan Database
-
-Sebelum membuat model data, Anda harus membuat koneksi ke database yang akan diakses oleh aplikasi. Sebuah proyek aplikasi Epigoni baru sudah memiliki satu buah koneksi database, yaitu koneksi ke database definisi aplikasi, bernama DEFAULT. Koneksi DEFAULT tidak ada dalam daftar koneksi, tetapi dapat digunakan.
-
-Untuk melihat daftar koneksi database yang ada, pada tab Metadata, klik tombol Connection.
-
-Untuk menambahkan koneksi ke database klik tombol Add. Beri nama koneksi pada edit box Connection Name dan pilih Connection Type dengan jenis RDBMS dari database yang ingin diakses.
-
-Lengkapi parameter dari koneksi seperlunya. Misal isi Database dengan nama database atau alias dari database yang akan diakses, isi User_Name dan Password dengan nama user dan password untuk login ke database tersebut.
 
 ### Membuat Koneksi Database
 
