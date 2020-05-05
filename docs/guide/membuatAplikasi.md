@@ -178,3 +178,23 @@ Tampilan _Preview_
 Tampilan _Run_
 
 ![Dataset Run](/images/dataset-run.png)
+
+### Membuat Data Package
+
+Untuk melihat daftar definisi _Data Package_, pada tab **Metadata**, klik menu **Data Package**.
+
+![Tombol Data Packages](/images/btn-dat-pckg.png)
+
+![Data Packages](/images/app-data-packages.png)
+
+Untuk membuat definisi Data Package baru, klik tombol **Add**, kemudia isi nama _Data Package_ pada form muncul, kemudian klik tomol **OK**.
+
+![Create Data Package ](/images/create-data-package.png)
+
+Setelah nama Data Package baru telah terbentuk, kemudian pilih dan klik tombol **Edit** atau _double click_ pada Data Package tersebut, akan kemudian akan tampil **Data Package Editor** seperti gambar di bawah.
+
+Kemudian, untuk menambahkan atau mendaftarkan **Dataset** ke **Data Package**, klik tombol **Add** pada tab **Members**.
+
+![Data Package Editor](/images/data-package-editor.png)
+
+![Data Package Member](/images/data-package-member.png)
