@@ -172,3 +172,9 @@ Ada definisi lain yang harus di-_set_ yang berada pada tab-tab bagian bawah edit
 Setelah _data set_ didefinisikan Anda dapat melihat _preview_ dari _data set_ tersebut dengan meng-klik tombol **Preview** atau klik tombol **Run** jika hanya ingin mengeksekusi _Command Text_-nya saja.
 
 Tampilan _Preview_
+
+![Dataset Preview](/images/dataset-preview.png)
+
+Tampilan _Run_
+
+![Dataset Run](/images/dataset-run.png)
