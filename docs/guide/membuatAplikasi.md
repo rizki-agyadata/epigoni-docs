@@ -232,3 +232,41 @@ Disamping dengan cara di atas, untuk membuat **Data Package** dari **Dataset** y
 7. Untuk hasilnya bisa dilihat di daftar definisi Data Package.
 
 ![Hasil Datapackage](/images/list-data-package.png)
+
+## Membuat Presentasi
+
+### Membuat Form
+
+Untuk melihat daftar definisi _Form_, pada tab _Metadata_, klik menu **Form**.
+
+![Forms](/images/app-forms.png)
+
+Untuk membuat definisi _form_ baru, klik tombol **Add** untuk menampilkan **Form Editor**.
+
+![Add New Form](/images/add-new-form.png)
+
+## Merancang Menu Aplikasi
+
+### Membuat Action
+
+Pembuatan action ini nantinya akan dihubungkan ke menu pada aplikasi untuk bisa dijalankan.
+
+Untuk membuat Action ada 2 Cara, yaitu :
+
+Cara pertama :
+
+Jika _Dataset_ yang akan dibuat action sudah dibuat maka pada daftar _Dataset_, pilih _Dataset_ yang akan dibuat actionnya kemudian klik kanan, terus pilih **Create Data Package, Form and Action**.
+
+![Create Action From Dataset](/images/create-action-from-dataset.png)
+
+Cara kedua :
+
+Jika _Data Package_ yang akan dibuat _action_ sudah dibuat maka pada daftar _Data Package_, pilih **Data Package** yang akan dibuat actionnya kemudian klik kanan, terus pilih **Create Form and Action**.
+
+![Create Action From Data Package](/images/create-action-from-datapackage.png)
+
+_Action_ yang telah berhasil dibuat bisa dilihat pada daftar _Action_
+
+![Hasil Action](/images/result-create-action.png)
+
+Pada daftar _Action_ ini dilengkapi dengan tombol **Execute** yang berfungsi untuk melihat hasil dari masing-masing _Action_ yang ada didaftar Action
