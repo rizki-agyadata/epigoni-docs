@@ -193,8 +193,42 @@ Untuk membuat definisi Data Package baru, klik tombol **Add**, kemudia isi nama 
 
 Setelah nama Data Package baru telah terbentuk, kemudian pilih dan klik tombol **Edit** atau _double click_ pada Data Package tersebut, akan kemudian akan tampil **Data Package Editor** seperti gambar di bawah.
 
-Kemudian, untuk menambahkan atau mendaftarkan **Dataset** ke **Data Package**, klik tombol **Add** pada tab **Members**.
-
 ![Data Package Editor](/images/data-package-editor.png)
 
+Untuk menambahkan atau mendaftarkan **Dataset** ke **Data Package**, klik tombol **Add** pada tab **Members**, maka kemudian akan tampil form **Data Package Member** seperti berikut.
+
 ![Data Package Member](/images/data-package-member.png)
+
+Klik tombol [...] pada _edit box_ **Dataset**, kemudian pilih _dataset_ yang dimaksud, kemudian klik tombol **OK** atau klik ganda pada _dataset_ yang dipilih.
+
+![Select Dataset](/images/select-dataset.png)
+
+Pastikan _edit box_ **Dataset** telah terisi dengan nama _dataset_ yang dipilih pada **Data Package Member**, klik tombol **OK**.
+
+Kemudian klik tombol **Close** pada **Data Package Editor**.
+
+:::tip
+Disamping dengan cara di atas, untuk membuat **Data Package** dari **Dataset** yang telah dibuat, epigoni menyediakan juga cara yang lebih sederhana sebagai berikut:
+:::
+
+1. Masuk ke daftar definisi _dataset_
+2. Sorot definisi _dataset_ yang akan dibuat definisi _data package_
+3. Klik kanan pada definisi _dataset_ yang akan dibuat definisi _data package_
+
+![Create Datapackage From Dataset](/images/create-datapackage-from-dataset.png)
+
+4. Pilih salah satu menu yang muncul, misal: **Create Data Package**
+
+![Menu Dataset Klik Kanan](/images/menu-dataset-klik-kanan.png)
+
+5. Isikan nama untuk definisi Data Package yang sedang dibuat, tekan tombol OK
+
+![Create Datapackage Base Name](/images/create-datapackage-base-name.png)
+
+6. Proses membuat definisi Data Package sudah berhasil, tekan tombol OK
+
+![Informasi Done](/images/dialog-done.png)
+
+7. Untuk hasilnya bisa dilihat di daftar definisi Data Package.
+
+![Hasil Datapackage](/images/list-data-package.png)
