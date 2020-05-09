@@ -295,3 +295,21 @@ _tool bar menu_ akan tampil sebagai _Tool Bar_ di bawah _Menu Bar_. _Level tree 
 Slide Menu adalah menu yang akan muncul disamping. _Level tree Side Menu_ dibatasi minimal dan maksimal 2.
 
 ![Side Menu](/images/side-menu-example.png)
+
+#### Navigasi Menu
+
+![Navigasi Menu](/images/navigasi-menu.png)
+
+##### Add
+
+Untuk menambahkan item menu yang sejajar (sibling). Data yang diisikan adalah _Caption_, _Hint_, _Action_, serta _Image_.
+
+Untuk memilih _image_ lakukan klik-kanan pada area **Image** kemudian klik **Load**.
+
+![Menu - Load Image](/images/menu-load-image.png)
+
+::: tip
+Bila **Caption** diisi dengan **"-"** , maka item menu akan menjadi separator.
+:::
+
+![Menu - Caption Strip](/images/menu-caption-separator.png)
