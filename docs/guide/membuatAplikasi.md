@@ -313,3 +313,25 @@ Bila **Caption** diisi dengan **"-"** , maka item menu akan menjadi separator.
 :::
 
 ![Menu - Caption Strip](/images/menu-caption-separator.png)
+
+![Menu Separator](/images/menu-separator.png)
+
+##### Add Child
+
+Untuk menambahkan item menu yang menjadi sub menu dari item menu yang dipilih.
+
+##### Edit
+
+Untuk mengubah item menu.
+
+##### Delete
+
+Untuk menghapus item menu.
+
+##### Up
+
+Untuk menggeser item menu ke atas dalam level yang sama.
+
+##### Down
+
+Untuk menggeser item menu ke bawah dalam level yang sama.
