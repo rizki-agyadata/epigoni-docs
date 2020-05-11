@@ -367,3 +367,55 @@ Menghapus _Role_
 Mengatur hak akses terhadap menu setiap _Role_.
 
 ![Menu Role](/images/menu-role.png)
+
+### User
+
+![Tombol Users](/images/btn-users.png)
+
+Fitur ini digunakan untuk menambah, mengubah dan menghapus _user_.
+
+![Users](/images/app-users.png)
+
+#### Add
+
+Untuk menambahkan _user_ baru, dengan _property_ **User Name**, **Password**, **Full Name**, **Status** _(Active/Inactive)_.
+
+![User Form](/images/app-user-form.png)
+
+#### Edit
+
+Untuk mengubah _user_, dengan _property_ **User Name**, **Password**, **Full Name**, **Status** _(Active/Inactive)_.
+
+#### Delete
+
+Untuk menghapus _user_.
+
+#### Role
+
+Untuk mendefinisikan _role_ apa saja yang di-_assign_-kan ke _user_ tersebut.
+
+![User Role](/images/user-role.png)
+
+### Icons
+
+![Tombol Icons](/images/btn-icons.png)
+
+**Icons** digunakan untuk mengelola _icon_. Sebuah _icon_ bisa terdiri atas 3 buah gambar, masing-masing dengan _extension_ **bitmap**, **png**, **ico**.
+
+![Icons](/images/app-icons.png)
+
+#### Add
+
+Untuk menambahkan sebuah _icon_.
+
+#### Edit
+
+Untuk mengubah _icon_.
+
+#### Delete
+
+Untuk menghapus _icon_.
+
+#### Load Icons
+
+Digunakan untuk menambahkan sebuah folder (tidak rekursif ke sub-sub foldernya) ke dalam **Icons**. Secara otomatis gambar akan bertambah sesuai dengan nama dan tipenya. Bila gambar sudah ada maka akan muncul pertanyaan **skip**, **replace**, **skip all**, **replace all**, atau **cancel**.
