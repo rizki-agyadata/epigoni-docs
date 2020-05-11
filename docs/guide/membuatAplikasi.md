@@ -335,3 +335,35 @@ Untuk menggeser item menu ke atas dalam level yang sama.
 ##### Down
 
 Untuk menggeser item menu ke bawah dalam level yang sama.
+
+## Mengatur User Pengguna Aplikasi
+
+### Roles
+
+![Menu Roles](/images/btn-roles.png)
+
+Fitur ini digunakan untuk mengelola _role_. User dapat menambah, mengubah atau menghapus _role_. Selain itu user dapat mendefinisikan hak atas setiap menu dari role yang dipilih.
+
+Semua _user_ bisa diubah atau dihapus, termasuk _user_ dengan nama **Administrator**.
+
+![Roles](/images/app-roles.png)
+
+#### Add Role
+
+Menambahkan _role_ baru dan mengisi _property_ _Name_ dan _Status_ _(Active / Inactive)_
+
+![Role Form](/images/app-role-form.png)
+
+#### Edit Role
+
+Mengubah _role_ dalam hal ini adalah _property_ _Name_ dan _Status_ _(Active / Inactive)_
+
+#### Delete Role
+
+Menghapus _Role_
+
+##### Menu
+
+Mengatur hak akses terhadap menu setiap _Role_.
+
+![Menu Role](/images/menu-role.png)
