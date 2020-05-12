@@ -539,3 +539,43 @@ Dataset editor digunakan untuk mengedit _dataset_.
 - **Set Key Fields**, digunakan untuk mendefinisikan _key field_. Caranya dengan memilih beberapa _field_ dan menekan tombol ini. Semua _field_ yang dipilih akan menjadi _key field_ sedangkan field lainnya tidak.
 
 ![Set Key Fields](/images/dataset-set-key-fields.png)
+
+- **Set Category**, digunakan untuk mengisi category untuk semua _field_ yang dipilih.
+
+- **Create Lookup Field**, digunakan untuk membuat _field_ baru sebagai lookup dengan _field_ yang dipilih menjadi _key_.
+
+- **Up**, digunakan untuk menggeser _field_ ke atas
+
+- **Down**, digunakan untuk menggeser _field_ ke bawah
+
+- **Reset Order**, digunakan untuk mengembalikan _dataset_ seperti urutan dalam _command text_.
+
+### Field Editor
+
+Field Editor digunakan untuk mendefinisikan _field_.
+
+![Field Editor](/images/field-editor.png)
+
+- **Main**
+
+  ![Field Editor Main](/images/field-editor-main.png)
+
+  - **Dataset**, digunakan untuk menampilkan _dataset_ yang merupakan induk dari _field_ tersebut (Display Only).
+  - **Field Name**, nama _field_.
+  - **Field Type**, tipe _data field_.
+  - **Field Size**, ukuran _field_.
+  - **Required**. Bila _true_, berarti _field_ ini harus diisi.
+  - **Can Sort**. Bila _true_, berarti _field_ ini bisa di-_sort_.
+  - **Can Filter**. Bila _true_, berarti _field_ ini bisa di-_filter_.
+
+- **Appearance**
+
+  ![Field Editor Appearance](/images/field-editor-appearance.png)
+
+  - **Field Caption**, adalah judul _field_ dalam Grid.
+  - **Hint**, digunakan untuk _hint_.
+  - **Display Format**, digunakan untuk mendefinisikan _format_ tampilan.
+  - **Display Width**, digunakan untuk menentukan lebar tampilan dalam satuan karakter.
+  - **Display Height**, digunakan untuk menentukan tinggi tampilan dalam satuan _pixel_.
+  - **Alignment**, digunakan untuk menentukan _alignment_ data dalam komponen visual.
+  - **Title Alignment**, digunakan untuk menentukan _alignment_ dalam Grid.
