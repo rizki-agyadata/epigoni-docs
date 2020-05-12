@@ -419,3 +419,123 @@ Untuk menghapus _icon_.
 #### Load Icons
 
 Digunakan untuk menambahkan sebuah folder (tidak rekursif ke sub-sub foldernya) ke dalam **Icons**. Secara otomatis gambar akan bertambah sesuai dengan nama dan tipenya. Bila gambar sudah ada maka akan muncul pertanyaan **skip**, **replace**, **skip all**, **replace all**, atau **cancel**.
+
+### Membuat Lookup
+
+#### Lookup Editor
+
+Ketika _user_ menambah atau mengubah _lookup_ maka akan ditampilkan _lookup editor_ yang didalamnya terdiri atas sejumlah _field_.
+
+- **Lookup Name**, nama lookup.
+- **Connection**, Koneksi yang digunakan.
+- **Lookup Type** (Standard, Custom Values, Dataset, Dataset Clone, DataView)
+
+  - **Standard** digunakan untuk mendefinisikan lookup dimana perintah sql didefinisikan disini. Command text akan berisi perintah SQL tersebut.
+
+  ![Lookup Standard](/images/lookup-standard.png)
+
+  - **Custom Values** digunakan untuk mendefinisikan lookup yang didefinisikan sebagai daftar pasangan key dan value, dimana setiap pasangan akan dipisahkan dengan titik koma ";". Command text akan berisi pasangan tersebut. Contoh : 1=SATU;2=DUA. Dataset yang menggunakan custom values bisa bertipe integer atau numerik, selama isi dari pasangan key dan value valid.
+
+  ![Lookup Custom](/images/lookup-custom.png)
+
+  - **Dataset** digunakan untuk mendefinisikan lookup yang informasi query dan field-fieldnya berasal dari dataset tertentu. Dataset mana yang akan digunakan didefinisikan dalam Source Dataset
+
+  - **Dataset Clone** adalah definisi lookup dimana sumbernya adalah dataset lain dalam dataview yang sedang diedit (misalnya pada kasus master-detail). Dataset mana yang akan digunakan didefinisikan dalam Source Dataset. Bila menggunakan lookup jenis ini maka Source Dataset harus terdefinisi dalam DataView.
+
+  - **Dataview** adalah definisi lookup dimana sumbernya adalah dataview, sehingga bisa didefinisikan pencarian dll. Nama DataView ditulis dalam Source DataView.
+
+- **Key Fields** berisi daftar field yang akan menjadi key (di-copy nilainya dari lookup ke dalam dataset yang sedang di-edit). KeyFields bisa lebih dari 1.
+- **Display Fields** adalah field-field yang akan ditampilkan ketika dropdown list muncul. Display Fields bisa lebih dari 1.
+- **Display Index** adalah indeks dari Display Fields yang akan ditampilkan ketika dropdown list tidak muncul.
+- **Filter Fields** digunakan untuk melakukan filter lookup dari dataset yang diedit. Property ini berisi dafar field yang akan di-filter dan dipisahkan dengan titik koma (;). Jadi bila filter field diisi maka isi lookup akan di-filter dengan dari dataset yang diedit dengan nama yang sama.
+- **Description** digunakan untuk dokumentasi.
+
+#### Preview
+
+Lookup Preview digunakan untuk menampilkan data lookup.
+
+![Lookup Preview](/images/lookup-preview.png)
+
+#### Add
+
+Digunakan untuk menambah lookup.
+
+#### Edit
+
+Digunakan untuk mengubah lookup
+
+#### Delete
+
+Digunakan untuk menghapus lookup
+
+## Bekerja Dengan Data Set
+
+Dataset akan menghasilkan _recordset_ dari _SQL Select_ atau dari _store procedure_ (yang menghasilkan _recordset_). Dataset bisa _updateable_ ke hanya satu _dataset_. Satu perintah SQL dalam satu _dataset_ hanya dapat dilakukan terhadap satu _database_.
+
+### Dataset Editor
+
+Dataset editor digunakan untuk mengedit _dataset_.
+
+![Dataset Editor](/images/app-dataset-editor.png)
+
+- **Dataset Name**, merupakan nama _dataset_
+
+- **Dataset Title**, judul _(title)_ _dataset_ yang akan banyak digunakan dalam _user interface_.
+
+- **Connection**, adalah nama koneksi untuk _query_ dalam _dataset_
+
+- **Command Type**, untuk menentukan _Command Text_ akan digunakan sebagai apa.
+
+  - **Query** &rarr; _Command Text_ berisi perintah _Select SQL_
+  - **Table** &rarr; _Command Text_ berisi Nama Tabel
+  - **Store Procedure** &rarr; _Command Text_ berisi perintah untuk menjalankan _store procedure_, bagaimana perintahnya akan tergantung dalam RDBMS yang digunakan.
+
+- **Update Mode**, untuk menentukan cara melakukan _update_
+
+  - **All Fields** &rarr; Berarti seluruh _field_ akan dijadikan dasar pencarian untuk mengupdate (dalam bagian _where_ dari perintah _update_ yang dijalankan)
+  - **Changed Fields** &rarr; Berarti hanya _field_ yang berubah saja yang akan dijadikan dasar pencarian.
+  - **Key Fields** &rarr; Berarti hanya _field_ yang merupakan _key_ saja yang akan dijadikan dasar pencarian.
+
+- **Packed Record**, untuk menentukan jumlah _record_ yang di-_fetch_. Nilai **n** berarti ada **n** record yang akan di-_fetch_. Nilai **0** berarti tidak mengembalikan record Nilai **-1** berarti seluruh record akan diambil. Untuk jumlah **n > 0**, misalnya **10**, maka **10** _record_ akan di-_fetch_. Bila control (misalnya _Grid_) ternyata memerlukan **20** record pada saat pertama, maka secara otomatis **20** _record_ akan di-_fetch_. Dan selanjutnya bila control tersebut memerlukan _record_ berikutnya, maka secara otomatis _record_ berikutnya akan di-_fetch_.
+
+- **Max Blob Size**, digunakan untuk menentukan berapa ukuran maksimum _blob_ yang akan diambil. Bila **-1** maka berapapun besar _blob_ akan ditarik. Bila **n** maka _blob_ sebesar lebih dari **n** KB tidak akan diambil.
+
+- **Fetch Blobs On Demand**
+
+  - Bila **True**, maka _blob_ hanya akan di-_fetch_ ketika diperlukan saja. Pada saat record di-_fetch_, _blob_ belum diambil.
+
+- **Fetch Details On Demand**
+
+  - Bila **True**, maka data detail (dalam **dataset field**) akan diambil ketika diperlukan saja. Pada saat record di-_fetch_, _dataset field_ belum diambil.
+
+- **Command Text**, digunakan untuk mendefinisikan perintah sesuai definisi _Command Type_.
+
+- **Field Tab**, digunakan untuk menampilkan daftar _field_ yang ada
+
+- **Parameter Tab**, digunakan untuk menampilkan daftar _parameter_
+
+- **Index & Group Tab**, digunakan untuk menampilkan daftar _Index_ dan _Group_ untuk mengurutkan dan melakukan _grouping_ terhadap _dataset_.
+
+- **Aggregate Tab**, digunakan untuk menampilkan daftar _aggregate_, yaitu suatu nilai yang didapat dari seluruh _record_ dalam _dataset_ atau sebagian record sesuai _grouping_-nya.
+
+- **Constraint Tab**, digunakan untuk menampilkan daftar _Contraint_, yaitu suatu pembatasan nilai yang akan dimasukkan dalam _dataset_. _Constraint_ akan diperiksa persis sebelum _post_. Bila ada yang tidak sesuai maka _error message_ muncul dan _post_ akan dibatalkan.
+
+- **Description**, digunakan untuk dokumentasi dari _dataset_.
+
+### Fields Tab
+
+![Fields Tab](/images/dataset-fields-tab.png)
+
+- **Add**, digunakan untuk menambahkan _field_
+
+- **Edit**, digunakan untuk mengedit _field_
+
+- **Delete**, digunakan untuk menghapus _field_
+
+- **Generate All Fields**, digunakan untuk menggenerate semua _field_ yang dihasilkan oleh perintah SQL dalam Command Text. Fungsi ini akan melakukan sinkronisasi, dimana _field-field_ yang ada tetap dipertahankan, _field_ yang tidak diperlukan akan dihapus dan _field_ yang belum ada akan ditambahkan.
+
+- **Remove All Fields**, digunakan untuk menghapus semua _field_ dalam daftar.
+
+- **Set Key Fields**, digunakan untuk mendefinisikan _key field_. Caranya dengan memilih beberapa _field_ dan menekan tombol ini. Semua _field_ yang dipilih akan menjadi _key field_ sedangkan field lainnya tidak.
+
+![Set Key Fields](/images/dataset-set-key-fields.png)
