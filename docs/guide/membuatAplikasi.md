@@ -593,3 +593,41 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Edit Format**, digunakan untuk mendefinisikan format tampilan data ketika data akan diinput.
   - **Edit Mask**, digunakan untuk _mask data_ pada saat data akan diinput. Lihat _mask_-nya Delphi.
   - **Char Case**, untuk mendefinisikan apakah karakter secara otomatis diubah menjadi huruf besar (UPPERCASE), atau huruf kecil (LOWERCASE) atau tanpa perubahan (DEFAULT).
+
+- **Enabled**
+
+  ![Field Editor - Enabled](/images/field-editor-enabled.png)
+
+  - **Enabled on Browse**, berati pada saat _form entry/grid_ dalam mode _browse_ maka _field_ ini akan _disabled_ atau tidak.
+  - **Enabled on Insert**, berarti pada saat _form entry/grid_ dalam mode _insert_ maka _field_ ini akan _disabled_ atau tidak.
+  - **Enabled on Edit**, berarti pada saat _form entry/grid_ dalam mode _edit_ maka field ini akan _disabled_ atau tidak.
+
+- **Visible**
+
+  ![Field Editor - Visible](/images/field-editor-visible.png)
+
+  - **Browse**, berarti _field_ ini akan dimunculkan atau tidak pada saat _form entry/grid_ dalam mode _browse_.
+  - **Insert**, berarti _field_ ini akan dimunculkan atau tidak pada saat _form entry/grid_ dalam mode _insert_.
+  - **Edit**, berarti _field_ ini akan dimunculkan atau tidak pada saat _form entry/grid_ dalam mode _edit_.
+
+- **Update**
+
+  ![Field Editor - Update](/images/field-editor-update.png)
+
+  - **Can Modify**, berarti _field_ ini bisa diubah atau tidak (_read only_ atau tidak).
+  - **Updateable**, berarti _field_ ini akan di-_update_ ke _database_ atau tidak.
+  - **Key Field**, untuk mendefinisikan apakah _field_ ini _key_ atau tidak untuk proses _update_.
+
+- **Data**
+
+  ![Field Editor - Data](/images/field-editor-data.png)
+
+- **Constraint**
+
+  ![Field Editor - Constrain](/images/field-editor-constrain.png)
+
+  Constraint digunakan untuk mendefinisikan pembatasan terhadap field di _level field_.
+
+  - **Expression**, digunakan untuk mendefinisikan ekspresi yang akan membatasi _field_.
+    Ekspresi akan diperiksa pada saat fokus pindah dari _field_ ini.
+  - **Error Message**, digunakan untuk mendefinisikan _message_ yang muncul bila _expression_ tidak dipenuhi.
