@@ -565,8 +565,8 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Field Type**, tipe _data field_.
   - **Field Size**, ukuran _field_.
   - **Required**. Bila _true_, berarti _field_ ini harus diisi.
-  - **Can Sort**. Bila _true_, berarti _field_ ini bisa di-_sort_.
-  - **Can Filter**. Bila _true_, berarti _field_ ini bisa di-_filter_.
+  - **Enable Sort**. Bila _true_, berarti _field_ ini bisa di-_sort_.
+  - **Enable Filter**. Bila _true_, berarti _field_ ini bisa di-_filter_.
 
 - **Appearance**
 
@@ -579,3 +579,17 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Display Height**, digunakan untuk menentukan tinggi tampilan dalam satuan _pixel_.
   - **Alignment**, digunakan untuk menentukan _alignment_ data dalam komponen visual.
   - **Title Alignment**, digunakan untuk menentukan _alignment_ dalam Grid.
+  - **Col Min Screen**
+
+- **Input Control**
+
+  ![Field Editor - Input Control](/images/field-editor-input-control.png)
+
+  - **Control Type**, digunakan untuk mendefinisikan jenis kontrol untuk input data. Default berarti input kontrol yang digunakan akan disesuaikan dengan tipe data.
+  - **Control Position**, untuk menentukan posisi control, apakah akan diletakkan di baris baru atau tidak.
+  - **Category**, digunakan untuk mendefinisikan pengelompokan _field_ dalam _form entry_.
+  - **Label Caption**, digunakan untuk mendefinisikan _caption_ yang muncul untuk _field_ ini dalam _form entry_.
+  - **Label Width**, digunakan untuk mendefinisikan lebar label. Nilai 0 berarti akan diatur oleh aplikasi.
+  - **Edit Format**, digunakan untuk mendefinisikan format tampilan data ketika data akan diinput.
+  - **Edit Mask**, digunakan untuk _mask data_ pada saat data akan diinput. Lihat _mask_-nya Delphi.
+  - **Char Case**, untuk mendefinisikan apakah karakter secara otomatis diubah menjadi huruf besar (UPPERCASE), atau huruf kecil (LOWERCASE) atau tanpa perubahan (DEFAULT).
