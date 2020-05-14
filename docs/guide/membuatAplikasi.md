@@ -631,3 +631,34 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Expression**, digunakan untuk mendefinisikan ekspresi yang akan membatasi _field_.
     Ekspresi akan diperiksa pada saat fokus pindah dari _field_ ini.
   - **Error Message**, digunakan untuk mendefinisikan _message_ yang muncul bila _expression_ tidak dipenuhi.
+
+- **Data Field**
+
+  - **Lookup**
+
+    ![Field Editor - Data Field - Lookup](/images/field-editor-datafield-lookup.png)
+
+    - **Lookup Source Type**, digunakan untuk mendefinisikan sumber _lookup_.
+
+      - **None**, berarti _field_ ini tidak mengandung _lookup_.
+      - **Lookup Definition**, berarti _lookup_ akan diambil dari definisi _lookup_.
+      - **Custom Lookup value**, berarti _lookup_ akan dibentuk menggunakan daftar pasangan _key_ – _value_ yang dituliskan dalam _Lookup Values_
+
+    - **Lookup Definition**, untuk menentukan definisi _lookup_ mana yang akan digunakan
+    - **Update Fields**, digunakan untuk mendefinisikan _field_ apa saja dalam _dataset_ yang di-_entry_ yang akan diisi dari _dataset lookup_. Bila kosong maka hanya _key field_ saja yang akan di-_update_. Bila diisi maka akan ada pasangan _field_ yang menunjukkan _field_ mana yang akan diisi dan _field_ mana yang akan mengisikannya.
+    - **Filter Fields**, digunakan untuk mendefinisikan _field_ yang akan dijadikan _filter_.
+    - **Lookup Cache**, digunakan untuk mendefinisikan apakah hasil _lookup_ akan di-_cache_ atau tidak. Cocok digunakan bila data dalam _lookup_ jarang berubah.
+
+  - **Default Value**
+
+  ![Field Editor - Data Field - Default Value](/images/field-editor-datafield-default-value.png)
+
+  Pada area ini adalah bagian untuk menentukan nilai _default_. Tipe dan sumber nilai berasal dari berbagai sumber.
+
+  - **Encryption**
+
+  ![Field Editor - Data Field - Encryption](/images/field-editor-datafield-encryption.png)
+
+  - **Event**
+
+  ![Field Editor - Data Field - Event](/images/field-editor-datafield-event.png)
