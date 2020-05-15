@@ -662,3 +662,7 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Event**
 
   ![Field Editor - Data Field - Event](/images/field-editor-datafield-event.png)
+
+  - **Calculated Field**
+
+  ![Field Editor - Calculated Field](/images/field-editor-calculated-field.png)
