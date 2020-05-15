@@ -670,3 +670,80 @@ Field Editor digunakan untuk mendefinisikan _field_.
 ### Parameters Tab
 
 ![Dataset - Parameters](/images/dataset-parameters.png)
+
+- **Add**, digunakan untuk menambahkan _parameter_.
+- **Edit**, digunakan untuk mengubah _parameter_.
+- **Delete**, digunakan untuk menghapus _parameter_.
+- **Generate All Parameters**, digunakan untuk membentuk semua _parameter_ yang diperlukan.
+- **Remove All Parameters**, digunakan untuk menghapus semua _parameter_ yang ada.
+
+### Parameter Editor
+
+![Parameter Editor](/images/parameter-editor.png)
+
+- **Parameter Name**, digunakan untuk mendefinisikan Nama Parameter.
+- **Data Type**, digunakan untuk mendefinisikan tipe data untuk parameter.
+- **Size**, digunakan untuk mendefinisikan ukuran parameter
+- **Precision**, digunakan untuk mendefinisikan berapa jumlah digit yang digunakan dalam parameter untuk parameter bertipe numerik.
+- **Numeric Scale**, digunakan untuk mendefinisikan berapa jumlah _digit_ di belakang koma yang digunakan dalam parameter yang bertipe numerik.
+- **Value**, Nilai parameter, hanya digunakan dalam Builder.
+
+### Indexes & Groups
+
+![Indexes & Group](/images/indexes-and-groups-tab.png)
+
+Digunakan untuk mengurutkan dan mengelompokkan **dataset**.
+
+- **Add**, digunakan untuk menambah Index.
+- **Edit**, digunakan untuk mengubah Index.
+- **Delete**, digunakan untuk menghapus Index.
+- **Free Grouping**, digunakan untuk mendefinisikan apakah dataset tersebut memiliki free grouping dimana pada saat preview user dapat menyusun group-nya sendiri.
+- **Set Default Dataset Index**, digunakan untuk mendefinisikan bahwa index yang diselect akan menjadi default index.
+- **Clear Default Dataset Index**, digunakan untuk mengosongkan Default index.
+- **Default Index**, Tampilan yang menunjukkan index yang akan menjadi default index.
+- **Index Editor**, digunakan untuk mendefinisikan Index
+- **Index Name**, Nama Index
+- **Index Title**, Judul Index
+- **Grouping Level**, digunakan untuk mendefinisikan berapa tingkat grouping yang digunakan pada saat index tersebut aktif.
+- **Field List**, daftar field yang dimiliki oleh dataset sehingga bisa dengan mudah di-addkan ke dalam Index Field List.
+- **Index Field List**, daftar field yang digunakan dalam index
+- **Up**, digunakan untuk menggeser field ke atas
+- **Down**, digunakan untuk menggeser field ke bawah
+
+### Aggregates
+
+![Aggregates Tab](/images/aggregates-tab.png)
+
+- **Add**, digunakan untuk menambah aggregate
+- **Edit**, digunakan untuk mengubah aggregate
+- **Delete**, digunakan untuk menghapus aggregate.
+- **Aggregate Editor**, User interface yang dapat digunakan untuk mengubah aggregate.
+- **Aggregate Name**
+- **Apply To**
+  - **Summary**, nilai aggreaget akan dihitung untuk seluruh record.
+  - **Summary Group**, nilai aggregate akan dihitung untuk group dalam index tertentu.
+  - **Summary Default Group**, nilai aggregate akan dihitung untuk group yang didefinisikan dengan menggunakan free grouping.
+- **Dataset**, Nilai aggregate akan dihitung untuk seluruh record dan tidak dimunculkan dalam grid.
+- **Expression**
+  - **Field Name**, mendefinisikan nama field yang akan dihitung dalam aggregate
+  - **Aggregate Function**, salah satu dari SUM, COUNT, MIN, MAX, AVG untu mendefinisikan function apa yang digunakan dalam menghitung nilai aggregate.
+  - **Display Format**, digunakan untuk mendefinisikan format tampilan dari aggregate
+  - **Display Column**, digunakan untuk mendefinisikan dimana letak aggregate akan ditampilkan dalam grid (dalam kolom yang mana).
+  - **Expression**, ekspresi aggregat yang digunakan untuk mendefinisikan aggregate dataset. Misalnya SUM(FIELD1\*100)+30.
+  - **Index Name**, index Name hanya berfungsi untuk Summary Group dan Dataset yaitu index mana yang akan digunakan dalam aggregate.
+
+### Constraint
+
+Constraint digunakan untuk mendefinisikan batasan untuk suatu record dalam dataset. Constraint akan dieksekusi before post, bila gagal post akan dibatalkan.
+
+- **Add**, digunakan untuk menambahkan Constraint.
+- **Edit**, digunakan untuk mengubah Constraint.
+- **Delete**, digunakan untuk menghapus Constraint.
+
+### Constraint Editor
+
+- **Constraint Name**, Nama Constraint
+- **Expression**, Ekspresi untuk mendefinisikan Constraint.
+- **Error Message**, Message yang muncul ketika constraint gagal.
+
+## Bekerja Dengan Data Package
