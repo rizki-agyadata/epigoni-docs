@@ -747,3 +747,55 @@ Constraint digunakan untuk mendefinisikan batasan untuk suatu record dalam datas
 - **Error Message**, Message yang muncul ketika constraint gagal.
 
 ## Bekerja Dengan Data Package
+
+### Data Package Editor
+
+![DataPackage](/images/dataPackage.svg)
+
+- **Dataset**, Daftar Dataset yang ada dalam Dataview.
+  - **Add**, Untuk menambahkan Dataset
+  - **Remove**, Untuk membuang dataset dari dataview
+  - **Up**, Untuk menggeser dataset ke atas
+  - **Down**, Untuk menggeser dataset ke bawah
+  - **Edit Dataset**, Untuk memanggil Dataset Editor
+  - **Relation**, Untuk memanggil Relation Editor
+- **Relation Editor**, digunakan untuk menghubungkan dua buah dataset, dimana salah satu akan berperan sebagai master dataset yang lainnya akan berperan sebagai detail dataset. Apa yang harus dilakukan oleh master dataset dan detail dataset tergantung relation type.
+  - **Master Dataset**, Dataset yang berperan sebagai master.
+  - **Detail Dataset**, Dataset yang berperan sebagai detail.
+  - **Relation Type**, Tipe relasi yang akan menentukan peran master dan detail dataset.
+  - **Param Substitution**, Detail dataset akan memiliki parameter yang disuplai dari master dataset. Dalam relasi jeins ini, mekanisme update dilakukan oleh masing-masing.
+  - **List Detail**, Detail dataset akan memiliki parameter yang disuplai dari master dataset. Dalam relasi jenis ini, master tidak di-_update_, hanya detail yang di-_update_. Master bisa banyak tetapi detail tunggal untuk setiap master.
+  - **Master Detail**, Detail dataset akan memiliki parameter yang disuplai dari master dataset. Dalam relasi jenis ini, detail akan menjadi bagian dari master yaitu sebagai _dataset field_. Master dan detail akan di-_update_ dalam satu _transaction_.
+  - **Link**, Link adalah daftar _field_ yang menjadi penghubung antara _master_ dengan _detail_.
+  - **Parameter Name**, Nama field yang merupakan parameter dari _detail dataset_
+  - **Source Field Name**, Nama field yang dimiliki oleh _master dataset_
+  - **Add**, Untuk menambahkan _link_
+  - **Delete**, Untuk menghapus _link_
+  - **Generate All Link**, Untuk menggenerate seluruh _link_ dimana nama parameter dari detail dataset diketemukan dalam _master dataset_.
+  - **Remove All Link**, Digunakan untu menghapus semua link yang sudah didefinisikan.
+- **Open Parameter Tab**, Daftar Open Parameter yang didefinisikan untuk _dataview_ tersebut. Untuk mengubah _open parameter_ digunakan Open Parameter Editor yang tampilannya sangat mirip dengan Field Editor. Sort dan Filter tidak ada. Update, yaitu Can Modify Updateable, Keyaq Field tidak digunakan.
+  - **Add**
+  - **Edit**
+  - **Delete**
+- **Published Field**, _published field_ yang di-_published_ keluar. Keguanaannya bisa berbagai macam, misalnya untuk _lookup_ dengan tipe DataView, atau untuk input bagi DataView Lain.
+- **Published Field Tab**
+  - **Add**
+  - **Delete**
+  - **Generate All Fields**
+  - **Remove All Fields**
+- **Published Field Editor**
+  - **Dataset Name**, Nama _dataset_ yang akan digunakan
+  - **Field Name**
+
+## Merancang Form
+
+### Form
+
+![Forms](/images/app-forms.png)
+
+- **Add**, digunakan untuk menambahkan Form
+- **Edit**, digunakan untuk melakukan perubahan Form
+- **Delete**, digunakan untuk menghapus Form
+- **Design** , digunakan untuk merancang bagaimana sebuah form dipresentasikan.
+- **Preview**, digunakan untuk menampilkan Form
+- **Close**, digunakan untuk menutup jendela Form.
