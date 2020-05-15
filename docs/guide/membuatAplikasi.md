@@ -666,3 +666,7 @@ Field Editor digunakan untuk mendefinisikan _field_.
   - **Calculated Field**
 
   ![Field Editor - Calculated Field](/images/field-editor-calculated-field.png)
+
+### Parameters Tab
+
+![Dataset - Parameters](/images/dataset-parameters.png)
