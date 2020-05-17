@@ -799,3 +799,11 @@ Constraint digunakan untuk mendefinisikan batasan untuk suatu record dalam datas
 - **Design** , digunakan untuk merancang bagaimana sebuah form dipresentasikan.
 - **Preview**, digunakan untuk menampilkan Form
 - **Close**, digunakan untuk menutup jendela Form.
+
+![New Form](/images/add-new-form.png)
+
+### Desain
+
+![Form Select Design](/images/form-select-design.png)
+
+![Standard Form Designer](/images/standard-form-designer.png)
