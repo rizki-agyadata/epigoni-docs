@@ -807,3 +807,20 @@ Constraint digunakan untuk mendefinisikan batasan untuk suatu record dalam datas
 ![Form Select Design](/images/form-select-design.png)
 
 ![Standard Form Designer](/images/standard-form-designer.png)
+
+## Running Aplikasi
+
+Aplikasi yang telah dibuat menggunakan Epigoni dapat dijalankan melalui tombol **Run Aplication** yang terletak
+pada **Tool Bar**.
+
+![Button Run](/images/run-app.png)
+
+Menu **Run** adalah untuk menjalankan aplikasi Epigoni.
+
+Setelah menu diklik maka akan tampil _form login_ seperti contoh gambar berikut.
+
+![Form Login](/images/formLogin.png)
+
+::: tip
+Proses **Login** bisa dilakukan secara otomatis dengan melakukan pengaturan pada menu [Config](/portal/menuPengaturanAplikasi.html#config) pada bagian [Auto Login](/portal/menuPengaturanAplikasi.html#auto-login).
+:::
