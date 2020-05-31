@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78066cd2-63ff-4a7c-a73a-81cad2dbe5a8/deploy-status)](https://app.netlify.com/sites/epigoni-docs/deploys)
+
 <p align="center">
   <a href="https://epigoni-docs.netlify.app/" target="_blank">
     <img src="https://github.com/rizki-agyadata/epigoni-docs/blob/master/docs/.vuepress/public/images/Epigoni.png" alt="logo">
