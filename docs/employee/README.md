@@ -4,6 +4,11 @@ sidebarDepth: 3
 
 # Membuat Aplikasi Baru
 
+## Prasyarat
+
+- Install Firebird
+-
+
 ## Persiapan
 
 - Unduh file **Epigoni 1.5.rar** dan **Chinook_db.zip** pada tautan berikut:
@@ -19,3 +24,13 @@ sidebarDepth: 3
 - Klik menu Create New Application
 
 ![Button Create New App.](/images/btnCreateApp.svg)
+
+- Isi form **Create New Application** seperti berikut.
+
+![Chinook - Create New App.](/images/chinook-create-new-app.png)
+
+Klik **OK** untuk melanjutkan proses.
+
+Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
+
+![Chinook - New App. Icon](/images/chinook-icon-portal.png)
