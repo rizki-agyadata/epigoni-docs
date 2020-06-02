@@ -2,6 +2,10 @@
 sidebarDepth: 3
 ---
 
+::: danger Catatan
+Konten pada halaman **Demo** ini masih dalam proses pengerjaan.
+:::
+
 # Demo Pembuatan Aplikasi
 
 ## Prasyarat
@@ -29,7 +33,7 @@ sidebarDepth: 3
 
 ![Button Create New App.](/images/btnCreateApp.svg)
 
-- Isi form **Create New Application** seperti berikut.
+- Isi form **Create New Application** seperti gambar berikut.
 
 ![Chinook - Create New App.](/images/chinook-create-new-app.png)
 

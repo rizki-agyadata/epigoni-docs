@@ -12,6 +12,7 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
+      { text: "Demo", link: "/demo/" },
       { text: "Portal", link: "/portal/" },
       { text: "Metadata", link: "/metadata/" },
     ],
@@ -24,6 +25,7 @@ module.exports = {
         "membuatAplikasi",
         "membuatAplikasi-Versi-1.2",
       ],
+      "/demo/": [""],
       "/portal/": ["", "appPortal", "menuPengaturanAplikasi"],
       "/metadata/": [
         "",
