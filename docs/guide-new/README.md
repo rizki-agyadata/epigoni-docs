@@ -2,7 +2,9 @@
 sidebarDepth: 3
 ---
 
-# Apakah Epigoni Itu?
+# Introduksi
+
+## Apakah Epigoni Itu?
 
 Epigoni adalah low code application development platform yang membantu developer untuk membuat aplikasi line of business (LOB) dan aplikasi SCADA dengan mudah dan cepat dibandingkan dengan pembuatan aplikasi secara tradisional.
 
@@ -79,36 +81,28 @@ Dengan Add-on tambahan, Epigoni menyediakan akses ke lebih dari 100 eksternal si
 <div style="text-align:center"><img src="/images/ent-conn.png" alt="Enterprise Connectifity" /></div>
 
 <h3 style="text-align: center;">Accounting</h3>
-<p style="text-align: center;">Exact Online . FreshBooks Accounting . Intacct . Microsoft Dynamics GP
-QuickBooks Desktop . QuickBooks Online . QuickBooks Point of Sale . Reckon . Sage 50 UK . Xero Accounting</p>
+<p style="text-align: center;">Exact Online . FreshBooks Accounting . Intacct . Microsoft Dynamics GP . QuickBooks Desktop . QuickBooks Online . QuickBooks Point of Sale . Reckon . Sage 50 UK . Xero Accounting</p>
 
 <h3 style="text-align: center;">CRM & Marketing</h3>
-<p style="text-align: center;">Act CRM . Bing Ads . DoubleClick Campaign Manager . DoubleClick For Publishers . Dynamics 365 Sales
-Google AdWords . Google Analytics . Highrise CRM . HubSpot . Magento . MailChimp . Marketo
-Microsoft Dynamics CRM . NetSuite CRM & ERP . Oracle Marketing Cloud . Oracle Sales Cloud
-SAP Hybris C4C . Salesforce & Force.com . SendGrid . Sugar CRM . SuiteCRM . YouTube . YouTube Analytics . Zoho CRM</p>
+<p style="text-align: center;">Act CRM . Bing Ads . DoubleClick Campaign Manager . DoubleClick For Publishers . Dynamics 365 Sales . Google AdWords . Google Analytics . Highrise CRM . HubSpot . Magento . MailChimp . Marketo . Microsoft Dynamics CRM . NetSuite CRM & ERP . Oracle Marketing Cloud . Oracle Sales Cloud . SAP Hybris C4C . Salesforce & Force.com . SendGrid . Sugar CRM . SuiteCRM . YouTube . YouTube Analytics . Zoho CRM</p>
 
 <h3 style="text-align: center;">ERP & Collaboration</h3>
-<p style="text-align: center;">Basecamp . Dynamics 365 Business Central . Dynamics 365 Finance & Operations . Dynamics 365 Sales . Google Directory
-Jira . Magento . Microsoft Dynamics GP . Microsoft Dynamics NAV . Microsoft Excel Online
-Microsoft Project . Microsoft SharePoint . NetSuite CRM & ERP . Office 365 . SAP Business One . SAP ERP
-ServiceNow . SharePoint Excel Services . Smartsheet.com . Splunk . SurveyMonkey</p>
+<p style="text-align: center;">Basecamp . Dynamics 365 Business Central . Dynamics 365 Finance & Operations . Dynamics 365 Sales . Google Directory . Jira . Magento . Microsoft Dynamics GP . Microsoft Dynamics NAV . Microsoft Excel Online . Microsoft Project . Microsoft SharePoint . NetSuite CRM & ERP . Office 365 . SAP Business One . SAP ERP . ServiceNow . SharePoint Excel Services . Smartsheet.com . Splunk . SurveyMonkey</p>
 
 <h3 style="text-align: center;">NoSQL & Big Data</h3>
-<p style="text-align: center;">Amazon Athena . Amazon DynamoDB . Amazon Redshift . Apache Cassandra . Apache HBase
-Apache Hadoop Hive . Apache Spark SQL . Azure Cosmos DB . Azure Table . Couchbase Server . Elasticsearch . Google BigQuery
-HPCC Systems . IBM Cloudant NoSQL DB . Microsoft Access . Microsoft Active Directory . MongoDB . Redis . xBase</p>
+<p style="text-align: center;">Amazon Athena . Amazon DynamoDB . Amazon Redshift . Apache Cassandra . Apache HBase . Apache Hadoop Hive . Apache Spark SQL . Azure Cosmos DB . Azure Table . Couchbase Server . Elasticsearch . Google BigQuery . HPCC Systems . IBM Cloudant NoSQL DB . Microsoft Access . Microsoft Active Directory . MongoDB . Redis . xBase</p>
 
 <h3 style="text-align: center;">eCommerce/Finance</h3>
-<p style="text-align: center;">Authorize.Net . E\*TRADE . OFX Financial Accounts . Open Exchange Rates . PayPal . Quandl . Shopify . Square . Stripe . eBay
-Docs & Files
-CSV/TSV Files . Google Sheets . Microsoft Excel . Microsoft Excel Online . SharePoint Excel Services . XML Files</p>
+<p style="text-align: center;">Authorize.Net . E\*TRADE . OFX Financial Accounts . Open Exchange Rates . PayPal . Quandl . Shopify . Square . Stripe . eBay</p>
+
+<h3 style="text-align: center;">Docs & Files</h3>
+<p style="text-align: center;">CSV/TSV Files . Google Sheets . Microsoft Excel . Microsoft Excel Online . SharePoint Excel Services . XML Files</p>
 
 <h3 style="text-align: center;">Networking & Auth</h3>
-<p style="text-align: center;">Email . FTP Servers . JSON Services . LDAP Directory Services . OData Services . OFX Financial Accounts .
-REST . RSS Feeds
-Social Networking
-Facebook . LinkedIn . Salesforce Chatter . Slack . Twitter</p>
+<p style="text-align: center;">Email . FTP Servers . JSON Services . LDAP Directory Services . OData Services . OFX Financial Accounts . REST . RSS Feeds</p>
+
+<h3 style="text-align: center;">Social Networking</h3>
+<p style="text-align: center;">Facebook . LinkedIn . Salesforce Chatter . Slack . Twitter</p>
 
 <h3 style="text-align: center;">REST Services</h3>
 <p style="text-align: center;">JSON Services . OData Services . REST</p>
@@ -122,7 +116,7 @@ Epigoni memberikan berbagai kemudahan untuk membuat aplikasi SCADA.
 
 Epigoni dapat bertindak sebagai OPC-UA client dan menyediakan akses yang mudah ke OPC-UA Server.
 
-![Scada Epigoni](/images/scada-epigoni.png)
+<div style="text-align:center"><img src="/images/scada-epigoni.png" alt="Scada Epigoni" /></div>
 
 Epigoni menyediakan editor untuk membentuk user-interface yang dapat menampilkan presentasi data dari OPC-UA Server dan berinteraksi dengannya.
 
@@ -150,4 +144,4 @@ Dengan menggunakan teknologi yang dapat mengintercept GDI API dan menggambarkann
 
 Dengan cara yang serupa dengan Epigoni Web dan beberapa penyesuaian layout serta wrapper untuk sistem operasi mobile, Epigoni dapat di-deploy sebagai aplikasi Mobile. Epigoni Mobile tersedia untuk sistem operasi IOS dan Android.
 
-![Epigoni Tablet](/images/epigoni-tablet.png)
+<div style="text-align:center"><img src="/images/epigoni-tablet.png" alt="Epigoni Tablet" /></div>
