@@ -11,20 +11,14 @@ module.exports = {
     lastUpdated: "Last Updated",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/" },
+      { text: "Guide", link: "/guide-new/" },
       { text: "Demo", link: "/demo/" },
       { text: "Portal", link: "/portal/" },
       { text: "Metadata", link: "/metadata/" },
+      { text: "Versi 1.2", link: "/guide/" },
     ],
     sidebar: {
-      "/guide/": [
-        "",
-        "arsitektur",
-        "modelData",
-        "presentasi",
-        "membuatAplikasi",
-        "membuatAplikasi-Versi-1.2",
-      ],
+      "/guide-new/": [""],
       "/demo/": [""],
       "/portal/": ["", "appPortal", "menuPengaturanAplikasi"],
       "/metadata/": [
@@ -35,6 +29,14 @@ module.exports = {
         "models",
         "presentations",
         "actions",
+      ],
+      "/guide/": [
+        "",
+        "arsitektur",
+        "modelData",
+        "presentasi",
+        "membuatAplikasi",
+        "membuatAplikasi-Versi-1.2",
       ],
       // fallback
       "/": [""],
