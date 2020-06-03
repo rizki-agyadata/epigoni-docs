@@ -12,14 +12,14 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/guide-new/" },
-      { text: "Demo", link: "/demo/" },
+      { text: "Demo", link: "/demo-app/" },
       { text: "Portal", link: "/portal/" },
       { text: "Metadata", link: "/metadata/" },
       { text: "Versi 1.2", link: "/guide/" },
     ],
     sidebar: {
       "/guide-new/": [""],
-      "/demo/": [""],
+      "/demo-app/": [""],
       "/portal/": ["", "appPortal", "menuPengaturanAplikasi"],
       "/metadata/": [
         "",

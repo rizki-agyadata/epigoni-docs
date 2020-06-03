@@ -4,7 +4,7 @@ sidebarDepth: 3
 
 # Introduksi
 
-## Apakah Epigoni Itu?
+## Epigoni
 
 Epigoni adalah low code application development platform yang membantu developer untuk membuat aplikasi line of business (LOB) dan aplikasi SCADA dengan mudah dan cepat dibandingkan dengan pembuatan aplikasi secara tradisional.
 

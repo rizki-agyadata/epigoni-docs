@@ -4,7 +4,7 @@ heroImage: /images/Epigoni.png
 heroText: Epigoni
 tagline: Rapid Business Application Builder
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /guide-new/
 features:
   - title: Simpel dan Mudah
     details: Lebih produktif. Hemat waktu dan biaya serta bisa bekerja di mana saja.
