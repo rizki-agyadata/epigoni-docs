@@ -49,7 +49,7 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
 ## Membuat koneksi
 
-- Klik menu Connections
+- Klik menu **Connections**
 
   ![Tombol Connections](/images/btn-con.png)
 
@@ -58,6 +58,33 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
   ![Chinook Connection](/images/chinook-connection.png)
 
 - Klik tombol **Test Connection** untuk memastikan koneksi ke _database_ sudah terhubung.
+
+  ![Connection Success](/images/connSuccess.svg)
+
 - Klik tombol **OK**.
 
 ## Membuat Dataset
+
+- Klik menu **Datasets**
+
+  ![Tombol Datasets](/images/btn-dts.png)
+
+- Klik tombol **Add** dan isi form dataset seperti gambar berikut:
+
+  ::: tip Catatan
+  Yang perlu diperhatikan pada gambar di bawah adalah bagian **Dataset** dan **Command Text**.
+  :::
+
+  ![Chinook Datset Employee](/images/chinook-dataset-employee.png)
+
+- Klik tab **Fields** kemudian klik tombol **Generate All Fields** untuk men-_generate_ semua _field_ yang telah didefiniskan pada bagian **Command Text**.
+
+  ![Chinook Datset Employee - Generate](/images/chinook-dataset-employee-generate.png)
+
+- Klik (pilih) _field_ **employeeid**, kemudian klik tombol **Set Key Field** untuk men-_set_ _field_ **employeeid** sebagi _primary key_.
+
+  ![Chinook Datset Employee - Set Key Field](/images/chinook-dataset-set-key.png)
+
+  - Kemudian klik **OK** pada dialog konfirmasi.
+
+  ![Dialog Set Key Field](/images/dialog-set-key-fields.png)

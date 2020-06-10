@@ -14,7 +14,7 @@ sidebarDepth: 3
 
 - Klik tombol Generate Documentation,
 - Klik **Yes** atau **No** pada dialog yang muncul seperti gambar di bawah.
-  Pilihan ini untuk menentukan apakan konten file **Excel** yang akan dihasilkan nantinya, apakah _single tab_ atau terklasifikasi dengan beberapa _tab_.
+  Pilihan ini untuk menentukan apakan konten file **Excel** yang akan dihasilkan nantinya _single tab_ atau terklasifikasi dengan beberapa _tab_.
 
   ![Dialog Single Tab](/images/dialog-single-tab.png)
 
