@@ -8,6 +8,10 @@ sidebarDepth: 3
 Konten pada halaman **Demo** ini masih dalam proses pengerjaan.
 :::
 
+## Skenario
+
+Kita akan membuat aplikasi sederhana dengan maksud untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
+
 ## Prasyarat
 
 - Sistem Operasi Windows, minimal Windows 7 ke atas
