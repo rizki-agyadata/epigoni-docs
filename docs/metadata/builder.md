@@ -22,8 +22,8 @@ sidebarDepth: 3
 
   ![Save .xlsx](/images/save-xlsx.png)
 
-- Berikut adalah contoh file yang dihasilkan dengan format **.xlsx**.
+  - Lamanya waktu proses _generate_ tergantung besar atau banyaknya modul pada aplikasi yang dibuat. Jika file telah berhasil di-_generate_ akan tampak pada direktori penyimpanan, seperti gambar berikut.
 
-  ![Untitled .xlsx](/images/untitled-xlsx.png)
+    ![Untitled .xlsx](/images/untitled-xlsx.png)
 
 ## Tools
