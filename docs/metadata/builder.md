@@ -8,6 +8,8 @@ sidebarDepth: 3
 
 ![Tombol Build Application](/images/btn-build-app.png)
 
+Fungsi Build Application adalah untuk memastikan semua parameter aplikasi (metadata aplikasi) terisi dengan benar.
+
 ## Generate Documentation
 
 ![Tombol Generate Documentation](/images/btn-gen-doc.png)
