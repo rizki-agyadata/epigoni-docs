@@ -92,3 +92,17 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
   - Kemudian klik **OK** pada dialog konfirmasi.
 
   ![Dialog Set Key Field](/images/dialog-set-key-fields.png)
+
+- Klik tombol **Preview** dan klik **OK** untuk men-_save_ _dataset_ pada dialog konfirmasi yang muncul.
+
+  ::: tip Catatan
+  **Preview** dan **Save Dataset** bersifat opsional, anda bisa melewati tahapan ini dan memilih **Cancel** pada dialog konfirmasi.  
+  :::
+
+  ![Dialog Save Dataset](/images/dialog-save-dataset.png)
+
+  Berikut adalah tampilan **Preview** _dataset_ **Employee**
+
+  ![Preview Employee Dataset](/images/chinook-preview-employee-dataset.png)
+
+-
