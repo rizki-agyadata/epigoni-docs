@@ -117,6 +117,16 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Dialog Copy Form Field Captions](/images/dialog-copy-from-field-captions.png)
 
-  > Hasilnya akan tampak seperti gambar berikut:
+  Hasilnya akan tampak seperti gambar berikut:
 
   ![Dataset Employee - Field dan Label Caption](/images/chinook-emp-field-dan-label-caption.png)
+
+- Klik tombol **Preview** dan klik **OK** untuk men-_save_ perubahan _dataset_ pada dialog konfirmasi yang muncul.
+
+  Berikut adalah tampilan hasil **Field Caption** dan **Label Caption** yang telah disesuaikan.
+
+![Dataset Employee - Preview Field Caption](/images/chinook-emp-preview-field-caption.png)
+
+![Dataset Employee - Preview Label Caption](/images/chinook-emp-preview-label-caption.png)
+
+-
