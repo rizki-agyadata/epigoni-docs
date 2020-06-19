@@ -96,7 +96,9 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 - Klik tombol **Preview** dan klik **OK** untuk men-_save_ _dataset_ pada dialog konfirmasi yang muncul.
 
   ::: tip Catatan
-  **Preview** dan **Save Dataset** bersifat opsional, anda bisa melewati tahapan ini dan memilih **Cancel** pada dialog konfirmasi.  
+  **Preview** dan **Save Dataset** bersifat opsional, anda bisa melewati tahapan ini dan memilih **Cancel** pada dialog konfirmasi.
+
+  Pada mode **Preview** sudah bisa melakukan proses <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a> (manipulasi data)
   :::
 
   ![Dialog Save Dataset](/images/dialog-save-dataset.png)
@@ -105,4 +107,16 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Preview Employee Dataset](/images/chinook-preview-employee-dataset.png)
 
--
+- Sesuaikan **Field Caption** menjadi seperti berikut:
+
+  ![Dataset Employee - Field Caption](/images/chinook-emp-field-caption.png)
+
+- Klik **Label Caption**, kemudian klik **OK** pada dialog **Confirmation** seperti gambar di bawah.
+
+  ![Dataset Employee - Label Caption](/images/chinook-emp-label-caption.png)
+
+  ![Dialog Copy Form Field Captions](/images/dialog-copy-from-field-captions.png)
+
+  > Hasilnya akan tampak seperti gambar berikut:
+
+  ![Dataset Employee - Field dan Label Caption](/images/chinook-emp-field-dan-label-caption.png)
