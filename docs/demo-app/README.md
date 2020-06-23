@@ -129,4 +129,14 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
 ![Dataset Employee - Preview Label Caption](/images/chinook-emp-preview-label-caption.png)
 
--
+- Pilih _field_ ID, Last Name, First Name, Gender, dan Birth Date, kemudian klik tombol **Set Category**.
+
+![Dataset Employee - Pilih dan Set Category](/images/pilih-dan-set-category.png)
+
+- Isikan "Personal" pada _edit box_ **Category ?** pada form **Set Category**, kemudian klik **OK**.
+
+![Dataset Employee - Form Set Category - Personal](/images/form-set-category-personal.png)
+
+Hasilnya akan terlihat seperti berikut:
+
+![Dataset Employee - Set Category - Personal](/images/set-category-personal.png)
