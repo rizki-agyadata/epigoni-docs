@@ -10,7 +10,7 @@ Konten pada halaman **Demo** ini masih dalam proses pengerjaan.
 
 ## Skenario
 
-Kita akan membuat aplikasi sederhana dengan maksud untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
+Pada halaman ini kita akan membuat aplikasi sederhana dengan maksud untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
 
 ## Prasyarat
 
@@ -125,18 +125,28 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   Berikut adalah tampilan hasil **Field Caption** dan **Label Caption** yang telah disesuaikan.
 
-![Dataset Employee - Preview Field Caption](/images/chinook-emp-preview-field-caption.png)
+  ![Dataset Employee - Preview Field Caption](/images/chinook-emp-preview-field-caption.png)
 
-![Dataset Employee - Preview Label Caption](/images/chinook-emp-preview-label-caption.png)
+  ![Dataset Employee - Preview Label Caption](/images/chinook-emp-preview-label-caption.png)
 
 - Pilih _field_ ID, Last Name, First Name, Gender, dan Birth Date, kemudian klik tombol **Set Category**.
 
-![Dataset Employee - Pilih dan Set Category](/images/pilih-dan-set-category.png)
+  ![Dataset Employee - Pilih dan Set Category](/images/pilih-dan-set-category.png)
 
 - Isikan "Personal" pada _edit box_ **Category ?** pada form **Set Category**, kemudian klik **OK**.
 
-![Dataset Employee - Form Set Category - Personal](/images/form-set-category-personal.png)
+  ![Dataset Employee - Form Set Category - Personal](/images/form-set-category-personal.png)
 
-Hasilnya akan terlihat seperti berikut:
+  Hasilnya akan terlihat seperti berikut:
 
-![Dataset Employee - Set Category - Personal](/images/set-category-personal.png)
+  ![Dataset Employee - Set Category - Personal](/images/set-category-personal.png)
+
+- Lakukan **Preview**, untuk melihat perubahan yang terjdi pada form **Employee** seperti pada gambar berikut.
+
+  ![Dataset Employee - Preview - Category - Personal](/images/chinook-dataset-preview-personal-category.png)
+
+::: tip Opsional
+Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
+
+![Dataset Employee - Sesuaikan Urutan Field](/images/chinook-sesuaikan-urutan-field.png)
+:::
