@@ -150,3 +150,15 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
 ![Dataset Employee - Sesuaikan Urutan Field](/images/chinook-sesuaikan-urutan-field.png)
 :::
+
+- Sesuaikan **Category** _field_ lain seperti gambar berikut.
+
+![Dataset Employee - Set Field Category](/images/chinook-set-field-category.png)
+
+- Pilih dan _edit_ field **PHONE**, kemudian pada **Field Editor** pilih **New Column** pada _combo box_ **Control Position**.
+
+  ![Dataset Employee - Set Field New Column](/images/chinook-set-field-new-column.png)
+
+  Lakukan preview untuk melihat perubahan yang terjadi seperti pada gambar berikut.
+
+  ![Dataset Employee - New Column](/images/chinook-dataset-employee-new-column.png)
