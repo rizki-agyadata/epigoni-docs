@@ -153,12 +153,21 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
 - Sesuaikan **Category** _field_ lain seperti gambar berikut.
 
-![Dataset Employee - Set Field Category](/images/chinook-set-field-category.png)
+  ![Dataset Employee - Set Field Category](/images/chinook-set-field-category.png)
 
 - Pilih dan _edit_ field **PHONE**, kemudian pada **Field Editor** pilih **New Column** pada _combo box_ **Control Position**.
 
   ![Dataset Employee - Set Field New Column](/images/chinook-set-field-new-column.png)
-
-  Lakukan preview untuk melihat perubahan yang terjadi seperti pada gambar berikut.
+  Lakukan **Preview** untuk melihat perubahan yang terjadi. Berikut adalah tampilan form **Employee**.
 
   ![Dataset Employee - New Column](/images/chinook-dataset-employee-new-column.png)
+
+- Ubah ukuran **DW** (Draw Width) pada _field_ **PHONE**, **FAX**, dan **EMAIL** menjadi "20".
+
+  ![Dataset Employee - DW - Contact Info 20](/images/chinook-dataset-employee-dw-contact-20.png)
+
+  Lakukan **Preview** untuk melihat perubahan yang terjadi. Berikut adalah tampilan hasilnya.
+
+  ![Dataset Employee - DW - Contact Info 20- preview](/images/chinook-dataset-employee-dw-contact-20-preview.png)
+
+-
