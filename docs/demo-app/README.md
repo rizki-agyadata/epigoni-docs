@@ -168,6 +168,26 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
   Lakukan **Preview** untuk melihat perubahan yang terjadi. Berikut adalah tampilan hasilnya.
 
+  ![Dataset Employee - DW - Contact Info 20- preview](/images/chinook-dataset-employee-dw-contact-20-grid-preview.png)
+
   ![Dataset Employee - DW - Contact Info 20- preview](/images/chinook-dataset-employee-dw-contact-20-preview.png)
+
+- Kosongkan **Label Caption** pada _field_ **PHOTO**
+
+  ![Dataset Employee - Kosongkan Label Caption - Photo](/images/chinook-kosongkan-label-caption-photo.png)
+
+  Berikut adalah hasil tampilan perubahan pada form **Employee**.
+
+  ![Dataset Employee - Kosongkan Label Caption - Photo - Preview](/images/chinook-kosongkan-label-caption-photo-preview.png)
+
+- Hilangkan tanda centang **VB** (Visible Browse) pada beberapa _field_, yaitu REPORTSTO, HIREDATE, ADDRESS, CITY, STATE, COUNTRY, POSTALCODE, dan PHOTO.
+
+  ![Dataset Employee - Uncheck VB](/images/chinook-uncheck-vb.png)
+
+  Jika di-_preview_ hasilnya adalah _field_ yang tidak diceklis akan tidak tampil pada _grid_ data Employee.
+
+- Hilangkan tanda ceklis pada EE (Enable Edit) pada _field_ ID.
+
+  ![Dataset Employee - Uncheck EE](/images/chinook-uncheck-ee.png)
 
 -
