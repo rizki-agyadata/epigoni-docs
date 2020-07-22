@@ -190,4 +190,26 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
   ![Dataset Employee - Uncheck EE](/images/chinook-uncheck-ee.png)
 
--
+  Hasilnya adalah _field_ atau _edit box_ ID tidak dapat diubah dan berwarna abu-abu seperti gambar berikut.
+
+  ![Dataset Employee - Uncheck EE - Preview](/images/chinook-uncheck-ee-preview.png)
+
+Pastikan perubahan pada _dataset_ telah tersimpan. Kemudian kita akan mel
+
+## Generate Data Package, Form, dan Action
+
+Pada menu **Datasets**, klik kanan pada _dataset_ yang telah kita buat yaitu QRY_EMPLOYEE, kemudian pilih **Create Data Package, Form, and Action**
+
+![Steps - Create Data Package, Form, and Action](/images/chinook-steps-gen-dp-f-a.png)
+
+Pada _dialog_ yang muncul klik tombol **OK**.
+
+![Dialog - Create Data Package, Form, and Action](/images/chinook-dialog-create-datapackage-form-action.png)
+
+::: tip Opsional
+Anda bisa mengubah **Base Name** sesuai dengan keinginan.
+:::
+
+Tunggu hingga muncuk dialog **Information** seperti berikut.
+
+![Dialog - Done](/images/dialog-done.png)
