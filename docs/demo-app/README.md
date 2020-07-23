@@ -198,7 +198,7 @@ Pastikan perubahan pada _dataset_ telah tersimpan. Kemudian kita akan mel
 
 ## Generate Data Package, Form, dan Action
 
-Pada menu **Datasets**, klik kanan pada _dataset_ yang telah kita buat yaitu QRY_EMPLOYEE, kemudian pilih **Create Data Package, Form, and Action**
+Klik menu **Data Packages**, kemudian pada modul **Datasets**, klik kanan pada _dataset_ yang telah kita buat yaitu QRY_EMPLOYEE, kemudian pilih **Create Data Package, Form, and Action**
 
 ![Steps - Create Data Package, Form, and Action](/images/chinook-steps-gen-dp-f-a.png)
 
@@ -213,3 +213,25 @@ Anda bisa mengubah **Base Name** sesuai dengan keinginan.
 Tunggu hingga muncuk dialog **Information** seperti berikut.
 
 ![Dialog - Done](/images/dialog-done.png)
+
+Data Package, Form, dan Action telah terbentuk. Untuk memastikannya, klik pada setiap menu dan lakukan **Preview** pada jika perlu.
+
+![Menu - Data Package, Form, Actions](/images/menu-dp-f-a.png)
+
+## Membuat Menu
+
+Klik menu **Menus**
+
+![Tombol Menus](/images/btn-menus.png)
+
+klik tombol **Add**.
+
+![Menus - Add](/images/chinook-menus-add.png)
+
+Kemudian pada form **Menu** yang muncul, isi **Caption** dengan "Digital Media Store" atau sesuai dengan yang anda inginkan. Jika telah selesai, klik tombol **OK**.
+
+![Menus - Add - Caption](/images/chinook-menu-caption.png)
+
+Kemudian klik tombol **Add Child**
+
+![Menus - Add Child](/images/chinook-menus-add-child.png)
