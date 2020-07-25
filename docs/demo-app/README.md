@@ -232,6 +232,48 @@ Kemudian pada form **Menu** yang muncul, isi **Caption** dengan "Digital Media S
 
 ![Menus - Add - Caption](/images/chinook-menu-caption.png)
 
-Kemudian klik tombol **Add Child**
+Kemudian klik tombol **Add Child**.
 
 ![Menus - Add Child](/images/chinook-menus-add-child.png)
+
+Pada form **Menu** yang muncul, isi **Caption** dengan "Store" atau sesuai dengan yang anda inginkan.
+
+![Menus - Add Child 1 - Caption](/images/chinook-menu-caption-child-1.png)
+
+Pastikan kursor berada pada _menu child_ **Store** kemudian klik tombol **Add Child**.
+
+![Menus - Add Child 1](/images/chinook-menus-add-child-1.png)
+
+Pada form **Menu** yang muncul, isi **Caption** dengan "Employee" atau sesuai dengan yang anda inginkan dan pada _combo box_ **Action** pilih **ACT_FRM_EMPLOYEE**, yaitu action yang telah dibuat sebelumnya.
+
+![Menus - Add Child 2 - Caption](/images/chinook-menu-caption-child-2.png)
+
+Masih pada form **Menu**, klik kanan pada daerah **Image** kemudian klik **Load**.
+
+![Menus - Add Child 2 - Image](/images/chinook-menus-add-child-2-image.png)
+
+Pada **Image Gallery** yang muncul pilih gambar yang diinginkan, kemudian klik **Ok**.
+
+Berikut adalah tampilan akhir menu yang akan dibuat.
+
+![Menus - Add Child 2 - End](/images/chinook-menu-child-2-end.png)
+
+Klik **OK** jika semua perubahan telah selesai dilakukan.
+
+::: tip Opsional
+Kolom **Hint** dapat diisi jika diperlukan.
+:::
+
+Berikut adalah tampilan susunan menu yang telah dibuat.
+
+![Menus - Final](/images/chinook-menus-final.png)
+
+## Menjalankan Aplikasi
+
+Klik tombol **Run**.
+
+![Button Run](/images/btnRun.png)
+
+Berikut adalah tampilan hasil menu yang telah dibuat.
+
+![Menus - Preview](/images/chinook-menus-preview.png)
