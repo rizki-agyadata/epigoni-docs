@@ -270,10 +270,42 @@ Berikut adalah tampilan susunan menu yang telah dibuat.
 
 ## Menjalankan Aplikasi
 
-Klik tombol **Run**.
+Sejauh ini, dengan menu yang telah dibuat, aplikasi telah siap dijalankan.
+
+Untuk menjalankan aplikasi, klik tombol **Run**.
 
 ![Button Run](/images/btnRun.png)
 
-Berikut adalah tampilan hasil menu yang telah dibuat.
+Maka kemudian tampilan hasil menu yang telah dibuat akan terlihat seperti berikut.
 
 ![Menus - Preview](/images/chinook-menus-preview.png)
+
+Berikut adalah tampilan modul Employees yang telah kita buat.
+
+![Menus - Run](/images/chinook-run.png)
+
+Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a>. Selanjutnya kita akan melakukan beberapa penyempurnaan pada aplikasi atau modul Employees ini.
+
+## Form Icon
+
+- Klik ganda pada _icon_ form Employee
+
+  ![Klik Ganda Icon Form](/images/chinook-klik-ganda-icon.png)
+
+- Pada **Metadata Objets** pilih _ object form_ yaitu FRM_EMPLOYEE, kemudian klik tombol **OK**.
+
+  ![Metadata Object Employees](/images/metada-object-employees.png)
+
+- klik tombol "..." pada bagian **Icon** pada **Standar Form Designer**.
+
+  ![Standar Form Designer - Change Icon](/images/chinook-std-frm-designer-change-icon.png)
+
+- Kemudian pilih gambar yang diinginkan pada **Image Gallery**, kemudian klik tombol OK, sehingga tampil gambar icon seperti gambar berikut.
+
+  ![Standar Form Designer - Change Icon - hasil](/images/chinook-std-frm-designer-change-icon-1.png)
+
+- Klik tombol OK pada Standar Form Designer, sehingga modul Employees tertutup dengan sendirinya. Kemudian klik kembali menu Employees untuk membuka dan melihat perubahan yang terjadi pada modul Employees.
+
+  ![New Icon Form](/images/chinook-new-icon-form.png)
+
+## Custom Lookup
