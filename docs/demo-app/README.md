@@ -288,11 +288,11 @@ Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="htt
 
 ## Form Icon
 
-- Klik ganda pada _icon_ form Employee
+- Klik ganda pada _icon_ form Employees
 
   ![Klik Ganda Icon Form](/images/chinook-klik-ganda-icon.png)
 
-- Pada **Metadata Objets** pilih _ object form_ yaitu FRM_EMPLOYEE, kemudian klik tombol **OK**.
+- Pada **Metadata Objets** pilih _object form_ yaitu FRM_EMPLOYEE, kemudian klik tombol **OK**.
 
   ![Metadata Object Employees](/images/metada-object-employees.png)
 
@@ -309,3 +309,33 @@ Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="htt
   ![New Icon Form](/images/chinook-new-icon-form.png)
 
 ## Custom Lookup
+
+Selanjutnya kita akan membuat **Custom Lookup** untuk field GENDER.
+
+![Gender Field](/images/chinook-gender.png)
+
+- Klik ganda pada _icon_ form Employees untuk membuka **Metadata Objets**
+
+  ![Klik Ganda Icon Form 1](/images/chinook-klik-ganda-icon-1.png)
+
+- Pilih _object dataset_ yaitu QRY_EMPLOYEE, kemudian klik tombol **OK**.
+
+  ![Metadata Object Employees - QRY_EMPLOYEE](/images/metada-object-employees-qry.png)
+
+- Pada **Dataset Editor**, edit _field_ GENDER sehingga tampil **Field Editor** GENDER.
+
+  ![Edit Gender Field](/images/chinook-edit-gender.png)
+
+- Pada **Lookup Source Type** pilih `CUSTOM LOOKUP VALUE` dan pada **Lookup Values** isi dengan nilai `M=Male; F=Female;`seperti gambar di bawah ini.
+
+  ![Edit Gender Field - Lookup](/images/chinook-edit-gender-lookup.png)
+
+- Setelah selesai, klik tombol OK pada **Field Editor** dan **Dataset Editor**, kemudian buka ulang modul Employees. Hasilnya akan terlihat seperti gambar berikut.
+
+  ![Gender Field - Finish](/images/chinook-gender-finish.png)
+
+## Lookup Definition
+
+Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
+
+![Reports To - Field](/images/chinook-reports-to.png)
