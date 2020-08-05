@@ -339,3 +339,88 @@ Selanjutnya kita akan membuat **Custom Lookup** untuk field GENDER.
 Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
 
 ![Reports To - Field](/images/chinook-reports-to.png)
+
+- Keluar dari mode **Run**, kemudian buka menu **Lookups** pada **Metadata**.
+
+  ![Tombol Lookups](/images/btn-lkp.png)
+
+- Klik tombol Add untuk membuat **Lookup Definition** dengan mengisi inputan pada bagian **Dataset** dan **Command Text**.
+
+  Bagian **Dataset**
+
+  - Lookup Name : `LKP_EMPLOYEE`
+  - Connection : `CHINNOOK`
+  - Lookup Type : `STANDARD`
+  - Key Fiels : `EMPLOYEEID`
+  - Display Fiels : `FIRSTNAME`
+
+  Bagian **Command Text** dengan menggunakan sintaks **SQL**.
+
+  ```sql
+  SELECT EMPLOYEEID, FIRSTNAME FROM EMPLOYEE
+  ```
+
+  Berikut adalah contoh gambarannya.
+
+  ![LKP_EMPLOYEE](/images/chinook-lkp_employee.png)
+
+  Untuk memastikan **Lookup** sudah berjalan dengan benar, lakukan **Preview**, dan hasilnya akan tampak seperti gambar berikut.
+
+  ![LKP_EMPLOYEE - Preview](/images/chinook-lkp_employee-preview.png)
+
+  Klik tombol OK pada **Lookup Editor** untuk menyimpan **Lookup** yang telah dibuat.
+
+- Klik menu Datasets.
+
+  ![Tombol Datasets](/images/btn-dts.png)
+
+- Edit _dataset_ LKP_EMPLOYEE.
+- Edit _field_ REPORTSTO dengan mengisi bagian **Lookup** seperti berikut.
+
+  - Lookup Source Type : `LOOKUP DEFINITION`
+  - Lookup Definition : `LKP_EMPLOYEE`
+
+  Berikut adalah contoh gambarannya.
+
+  ![Lookup Definition](/images/chinook-lkp_definition.png)
+
+  Klik tombol OK pada **Field Editor** dan **Dataset Editor** untuk menyimpan perubahan yang telah dilakukan.
+
+- Jalankan aplikasi, dan buka modul **Employees** untuk melihat perubahannya.
+
+  ![Reports To - Lookup Field](/images/chinook-reports-to-finnish.png)
+
+## Lookup Definition - Concatenate
+
+- Ubah _lookup_ LKP_EMPLOYEE dengan ketentuan sebagai berikut
+
+  - Bagian **Command Text**
+
+    ```sql
+    SELECT EMPLOYEEID, LASTNAME || ', ' || FIRSTNAME AS EMPLOYEENAME FROM EMPLOYEE
+    ```
+
+  - Bagian **Dataset**
+
+    Display Field : `EMPLOYEENAME`
+
+  Berikut adalah contoh gambarannya.
+
+  ![LKP_EMPLOYEE - Concat](/images/chinook-lkp_employee-concate.png)
+
+  Dan berikut adalah tampilan Preview dari perubahan yang dilakukan.
+
+  ![LKP_EMPLOYEE - Concat - Preview](/images/chinook-lkp_employee-concat-preview.png)
+
+## Tambah Tombol Export dan Print
+
+- Pada **Metadata**, buka _form_ FRM_EMPLOYEE dan lakukan perubahan pada objek **Multitable1** pada bagian **Navigator** seperti berikut.
+
+  - ShowExportButton : `True`
+  - ShowPrintButton : `True`
+
+![Form - Export & Print](/images/chinook-form-export-print.png)
+
+Berikut adalah tampilan hasilnya.
+
+![Form - Export & Print - Result](/images/chinook-form-export-print-1.png)
