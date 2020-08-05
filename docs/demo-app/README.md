@@ -5,12 +5,12 @@ sidebarDepth: 3
 # Demo Pembuatan Aplikasi
 
 ::: danger Catatan
-Konten pada halaman **Demo** ini masih dalam proses pengerjaan.
+Konten pada halaman **Demo** ini sudah dapat diikuti tahapan-tahapannya, namun masih dalam penyempurnaan redaksi kalimat dan lain-lain.
 :::
 
 ## Skenario
 
-Pada halaman ini kita akan membuat aplikasi sederhana dengan maksud untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
+Kita akan membuat sebuah aplikasi sederhana untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
 
 ## Prasyarat
 

@@ -8,6 +8,8 @@ sidebarDepth: 3
 
 ![Tombol Applications Info](/images/btn-app-info.png)
 
+Modul ini menampilkan identitas aplikasi mulai dari nama atau ID hingga gambar atau _icon_.
+
 Berikut adalah contoh tampilan form **Application Info**
 
 ![Application Info](/images/app-info.png)
@@ -16,7 +18,11 @@ Berikut adalah contoh tampilan form **Application Info**
 
 ![Tombol Roles](/images/btn-roles.png)
 
+Modul ini untuk melakukan pengaturan hak akses setiap _user_. Secara _default_ terdapat 2 (dua) _role_ yang telah tersedia, yaitu **ADMINISTRATOR** dan **DEVELOPER**.
+
 ![Roles](/images/app-roles.png)
+
+Berikut adalah tampilan form **Role** ketika akan menambahkan _role_ baru.
 
 ![Role Form](/images/app-role-form.png)
 
