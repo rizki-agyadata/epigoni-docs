@@ -4,8 +4,6 @@ sidebarDepth: 3
 
 # Demo Pembuatan Aplikasi
 
-## Skenario
-
 Kita akan membuat sebuah aplikasi sederhana untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
 
 ## Prasyarat

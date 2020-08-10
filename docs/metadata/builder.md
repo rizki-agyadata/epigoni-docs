@@ -18,12 +18,14 @@ Fungsi Build Application adalah untuk memastikan semua parameter aplikasi (metad
 
   ![Dialog Single Tab](/images/dialog-single-tab.png)
 
-- Selanjutnya sesuaikan _file name_, _type_ dan tentukan direktori penyimpanannya, kemudian klik **Save** untuk melanutkan proses simpan.
+- Selanjutnya sesuaikan _file name_, _type_ dan tentukan direktori penyimpanannya, kemudian klik tombol **Save**.
 
   ![Save .xlsx](/images/save-xlsx.png)
 
-- Lama waktu proses _generate_ tergantung besar atau banyaknya modul pada aplikasi yang dibuat. Kemudian jika file telah berhasil di-_generate_ maka file yang dihasilkan akan berada pada direktori yang telah ditentukan, misalnya seperti gambar berikut.
+- Lama waktu proses _generate_ tergantung besar atau banyaknya modul pada aplikasi yang dibuat. Kemudian jika _file_ telah berhasil di-_generate_ maka _file_ yang dihasilkan akan berada pada direktori yang telah ditentukan, misalnya seperti gambar berikut.
 
   ![Untitled .xlsx](/images/untitled-xlsx.png)
 
 ## Tools
+
+![Tombol Tools](/images/btn-tools.png)
