@@ -18,7 +18,9 @@ Berikut adalah contoh tampilan form **Application Info**
 
 ![Tombol Roles](/images/btn-roles.png)
 
-Modul ini untuk melakukan pengaturan hak akses setiap _user_. Secara _default_ terdapat 2 (dua) _role_ yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
+Menu **Roles** adalah untuk melakukan pengaturan hak akses setiap menu yang nantinya akan ditetapkan kepada [Users](./application.md#users).
+
+Secara _default_ terdapat 2 (dua) _role_ yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
 
 ![Roles](/images/app-roles.png)
 
@@ -38,9 +40,27 @@ Berikut adalah tampilan form **Role** ketika akan menambahkan _role_ baru.
 
 ![Tombol Users](/images/btn-users.png)
 
+Menu **Users** adalah untuk melakukan pengaturan _user_ (pengguna) aplikasi Epigoni.
+
+Secara _default_ terdapat 2 (dua) _user_ yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
+
 ![Users](/images/app-users.png)
 
+Berikut adalah tampilan form **User** ketika akan menambahkan _user_ baru.
+
 ![User Form](/images/app-user-form.png)
+
+Dan berikut adalah contoh tampilan form **User** dalam mode **Edit**.
+
+![User Form - Edit](/images/app-user-form-edit.png)
+
+### User - Role
+
+![Tombol User - Role](/images/btn-user-role.png)
+
+**Role** pada modul **Users** ini adalah untuk menentukan _role_ kepada setiap _user_. Pada gambar di bawah adalah contoh gambar dimana _user_ `USER1` memiliki _role_ `OPERATOR1`.
+
+![User - Role - Example](/images/user-role-example.png)
 
 ## Menus
 
