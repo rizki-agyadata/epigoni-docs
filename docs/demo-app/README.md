@@ -4,10 +4,6 @@ sidebarDepth: 3
 
 # Demo Pembuatan Aplikasi
 
-::: danger Catatan
-Konten pada halaman **Demo** ini sudah dapat diikuti tahapan-tahapannya, namun masih dalam penyempurnaan redaksi kalimat dan lain-lain.
-:::
-
 ## Skenario
 
 Kita akan membuat sebuah aplikasi sederhana untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
@@ -37,13 +33,41 @@ Kita akan membuat sebuah aplikasi sederhana untuk mendemonstrasikan secara singk
 
   ![Button Create New App.](/images/btnCreateApp.svg)
 
-- Isi form **Create New Application** seperti gambar berikut.
+- Isi form **Create New Application** seperti konfigurasi berikut.
 
-  ![Chinook - Create New App.](/images/chinook-create-new-app.png)
+::: tip Konfigurasi
 
-Klik **OK** untuk melanjutkan proses.
+- Application:
 
-Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
+  - Application ID : `MUSICSTORE`
+  - Description : `Chinook - Digital Media Store`
+  - Title : `Chinook`
+  - Sub Title : `Digital Media Store`
+
+- User Management:
+
+  - User Management Type : `Mixed Role`
+  - Administrator Password : (_password_)
+  - Developer Password : (_password_)
+
+- Primary Database:
+
+  - Database Type : `Firebird`
+  - Create New Database : `True` (ceklis)
+  - Host Name : `localhost`
+  - Database : (nama _path_ dan nama _file_ _database_)
+  - User Name : `sysdba` (_default user name_ Firebird)
+  - Password : (_password_ sysdba)
+
+- Project:
+
+  - Project File Name : (nama _path_ dan nama _file_ **.epf**)
+
+:::
+
+![Chinook - Create New App.](/images/chinook-create-new-app.png)
+
+Klik **OK**, maka kemudian akan terbentuk aplikasi pada portal Epigoni seperti gambar berikut.
 
 ![Chinook - New App. Icon](/images/chinook-icon-portal.png)
 
@@ -65,16 +89,17 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
 ::: tip Konfigurasi
 
-- Connection Name : `CHINNOOK`
-- Connection tYPE : `Firebird`
-- Parameters : Pada bagian _database_, isi dengan nama _path_ dan nama _file_ _database_ dengan lengkap.
+- Connection:
+  - Connection Name : `CHINNOOK`
+  - Connection Type : `Firebird`
+- Parameters:
 
-  (Opsional) Anda bisa mengisi bagian _database_ dengan cara menuliskan aliasnya.
+  Pada bagian ini yang perlu diperhatikan adalah bagian **Database**, isi dengan nama _path_ dan nama _file_ _database_ dengan lengkap. Atau Anda bisa mengisi bagian _database_ dengan cara menuliskan aliasnya.
   :::
 
 ![Chinook Connection](/images/chinook-connection.png)
 
-- Klik tombol **Test Connection** untuk memastikan koneksi ke _database_ sudah terhubung. Gambar di bawah adalah tampilan jika koneksi sudah terhubunng dengan benar.
+- Klik tombol **Test Connection** untuk memastikan koneksi ke _database_ sudah terhubung. Jika koneksi sudah terhubung dengan benar maka akan tampil dialog **Information** seperti gambar berikut.
 
   ![Connection Success](/images/connSuccess.svg)
 
@@ -118,7 +143,7 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Chinook Datset Employee - Generate](/images/chinook-dataset-employee-generate.png)
 
-- Klik (pilih) _field_ **employeeid**, kemudian klik tombol **Set Key Field** untuk men-_set_ _field_ **employeeid** sebagi _primary key_.
+- Klik (pilih) _field_ `EMPLOYEEID`, kemudian klik tombol **Set Key Field** untuk men-_set_ _field_ `EMPLOYEEID` sebagi _primary key_.
 
   ![Chinook Datset Employee - Set Key Field](/images/chinook-dataset-set-key.png)
 
@@ -126,13 +151,7 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Dialog Set Key Field](/images/dialog-set-key-fields.png)
 
-- Klik tombol **Preview** dan klik **OK** untuk men-_save_ _dataset_ pada dialog konfirmasi yang muncul.
-
-  ::: tip Catatan
-  **Preview** dan **Save Dataset** bersifat opsional, anda bisa melewati tahapan ini dan memilih **Cancel** pada dialog konfirmasi.
-
-  Pada mode **Preview** sudah bisa melakukan proses <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a> (manipulasi data)
-  :::
+- Klik tombol **Preview**, kemudian ketika muncul dialog konfirmasi, klik **OK** untuk mennyimpan _dataset_ yang dibuat.
 
   ![Dialog Save Dataset](/images/dialog-save-dataset.png)
 
@@ -140,7 +159,11 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Preview Employee Dataset](/images/chinook-preview-employee-dataset.png)
 
-- Sesuaikan **Field Caption** menjadi seperti berikut:
+  ::: tip Catatan
+  Pada mode **Preview** ini, _dataset_ sudah bisa melakukan proses manipulasi data <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">(CRUD)</a>
+  :::
+
+- Selanjutnya kembali ke Dataset Editor, dan sesuaikan **Field Caption** menjadi seperti berikut:
 
   ![Dataset Employee - Field Caption](/images/chinook-emp-field-caption.png)
 
@@ -154,7 +177,7 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Dataset Employee - Field dan Label Caption](/images/chinook-emp-field-dan-label-caption.png)
 
-- Klik tombol **Preview** dan klik **OK** untuk men-_save_ perubahan _dataset_ pada dialog konfirmasi yang muncul.
+- Klik tombol **Preview** dan klik **OK** untuk menyimpan perubahan _dataset_ pada dialog konfirmasi yang muncul.
 
   Berikut adalah tampilan hasil **Field Caption** dan **Label Caption** yang telah disesuaikan.
 
@@ -162,11 +185,11 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
 
   ![Dataset Employee - Preview Label Caption](/images/chinook-emp-preview-label-caption.png)
 
-- Pilih _field_ ID, Last Name, First Name, Gender, dan Birth Date, kemudian klik tombol **Set Category**.
+- Kembali ke Dataset Editor, selanjutnya pilih _field_ `ID`, `LASTNAME`, `FIRSTNAME`, `GENDER`, dan `BIRTHDATE`, kemudian klik tombol **Set Category**.
 
   ![Dataset Employee - Pilih dan Set Category](/images/pilih-dan-set-category.png)
 
-- Isikan "Personal" pada _edit box_ **Category ?** pada form **Set Category**, kemudian klik **OK**.
+- Isikan "Personal" pada _edit box_ **Category ?**, kemudian klik **OK**.
 
   ![Dataset Employee - Form Set Category - Personal](/images/form-set-category-personal.png)
 
@@ -179,23 +202,24 @@ Aplikasi akan terbentuk pada portal Epigoni seperti berikut.
   ![Dataset Employee - Preview - Category - Personal](/images/chinook-dataset-preview-personal-category.png)
 
 ::: tip Opsional
-Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
+Sesuaikan urutan _field_ `BIRTHDATE` dengan tombol **Up** atau **Down**.
 
 ![Dataset Employee - Sesuaikan Urutan Field](/images/chinook-sesuaikan-urutan-field.png)
 :::
 
-- Sesuaikan **Category** _field_ lain seperti gambar berikut.
+- Selanjutnya, sesuaikan **Category** _field_ lain seperti gambar berikut.
 
   ![Dataset Employee - Set Field Category](/images/chinook-set-field-category.png)
 
-- Pilih dan _edit_ field **PHONE**, kemudian pada **Field Editor** pilih **New Column** pada _combo box_ **Control Position**.
+- Selanjutnya, klik ganda (_edit_) pada _field_ `PHONE`, kemudian pada **Field Editor** pilih `NEW COLUMN` pada _combo box_ **Control Position**.
 
   ![Dataset Employee - Set Field New Column](/images/chinook-set-field-new-column.png)
+
   Lakukan **Preview** untuk melihat perubahan yang terjadi. Berikut adalah tampilan form **Employee**.
 
   ![Dataset Employee - New Column](/images/chinook-dataset-employee-new-column.png)
 
-- Ubah ukuran **DW** (Draw Width) pada _field_ **PHONE**, **FAX**, dan **EMAIL** menjadi "20".
+- Selanjutnya, ubah ukuran **DW** (Draw Width) pada _field_ `PHONE`, `FAX`, dan `EMAIL` menjadi `20`.
 
   ![Dataset Employee - DW - Contact Info 20](/images/chinook-dataset-employee-dw-contact-20.png)
 
@@ -205,7 +229,7 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
   ![Dataset Employee - DW - Contact Info 20- preview](/images/chinook-dataset-employee-dw-contact-20-preview.png)
 
-- Kosongkan **Label Caption** pada _field_ **PHOTO**
+- Selanjutnya, kosongkan **Label Caption** pada _field_ `PHOTO`
 
   ![Dataset Employee - Kosongkan Label Caption - Photo](/images/chinook-kosongkan-label-caption-photo.png)
 
@@ -213,88 +237,80 @@ Sesuaikan urutan _field_ **BIRTHDATE** dengan tombol **Up** atau **Down**.
 
   ![Dataset Employee - Kosongkan Label Caption - Photo - Preview](/images/chinook-kosongkan-label-caption-photo-preview.png)
 
-- Hilangkan tanda centang **VB** (Visible Browse) pada beberapa _field_, yaitu REPORTSTO, HIREDATE, ADDRESS, CITY, STATE, COUNTRY, POSTALCODE, dan PHOTO.
+- Selanjutnya, hilangkan tanda ceklis **VB** (Visible Browse) pada beberapa _field_, yaitu `REPORTSTO`, `HIREDATE`, `ADDRESS`, `CITY`, `STATE`, `COUNTRY`, `POSTALCODE`, dan `PHOTO`.
 
   ![Dataset Employee - Uncheck VB](/images/chinook-uncheck-vb.png)
 
   Jika di-_preview_ hasilnya adalah _field_ yang tidak diceklis akan tidak tampil pada _grid_ data Employee.
 
-- Hilangkan tanda ceklis pada EE (Enable Edit) pada _field_ ID.
+- Selanjutnya, hilangkan tanda ceklis pada **EE** (Enable Edit) pada _field_ `ID`.
 
   ![Dataset Employee - Uncheck EE](/images/chinook-uncheck-ee.png)
 
-  Hasilnya adalah _field_ atau _edit box_ ID tidak dapat diubah dan berwarna abu-abu seperti gambar berikut.
+  Hasilnya adalah _field_ `ID` tidak dapat diubah dan berwarna abu-abu seperti gambar berikut.
 
   ![Dataset Employee - Uncheck EE - Preview](/images/chinook-uncheck-ee-preview.png)
 
-Pastikan perubahan pada _dataset_ telah tersimpan. Kemudian kita akan mel
-
 ## Generate Data Package, Form, dan Action
 
-Klik menu **Data Packages**, kemudian pada modul **Datasets**, klik kanan pada _dataset_ yang telah kita buat yaitu QRY_EMPLOYEE, kemudian pilih **Create Data Package, Form, and Action**
+Pada modul **Datasets**, klik kanan pada _dataset_ yang telah kita buat yaitu `QRY_EMPLOYEE`, kemudian pilih `Create Data Package, Form, and Action`
 
 ![Steps - Create Data Package, Form, and Action](/images/chinook-steps-gen-dp-f-a.png)
 
-Pada _dialog_ yang muncul klik tombol **OK**.
+Selanjutnya, klik tombol **OK** pada _dialog_ yang muncul, biarkan **Base Name** adalah `EMPLOYEE`. Namun hal ini bersifat opsional, anda bisa mengubahnya sesuai dengan yang anda inginkan.
 
 ![Dialog - Create Data Package, Form, and Action](/images/chinook-dialog-create-datapackage-form-action.png)
 
-::: tip Opsional
-Anda bisa mengubah **Base Name** sesuai dengan keinginan.
-:::
-
-Tunggu hingga muncuk dialog **Information** seperti berikut.
+Tunggu hingga muncul dialog **Information** seperti berikut.
 
 ![Dialog - Done](/images/dialog-done.png)
 
-Data Package, Form, dan Action telah terbentuk. Untuk memastikannya, klik pada setiap menu dan lakukan **Preview** pada jika perlu.
+Sekarang `Data Package`, `Form`, dan `Action` telah berhasil dibuat. Untuk memastikannya, klik pada masing-masing menunya dan lakukan **Preview** jika perlu.
 
 ![Menu - Data Package, Form, Actions](/images/menu-dp-f-a.png)
 
 ## Membuat Menu
 
-Klik menu **Menus**
+- Klik menu **Menus**
 
-![Tombol Menus](/images/btn-menus.png)
+  ![Tombol Menus](/images/btn-menus.png)
 
-klik tombol **Add**.
+- klik tombol **Add**.
 
-![Menus - Add](/images/chinook-menus-add.png)
+  ![Menus - Add](/images/chinook-menus-add.png)
 
-Kemudian pada form **Menu** yang muncul, isi **Caption** dengan "Digital Media Store" atau sesuai dengan yang anda inginkan. Jika telah selesai, klik tombol **OK**.
+- Selanjutnya, pada form **Menu** yang muncul, isi **Caption** dengan `Digital Media Store` kemudian klik tombol **OK**.
 
-![Menus - Add - Caption](/images/chinook-menu-caption.png)
+  ![Menus - Add - Caption](/images/chinook-menu-caption.png)
 
-Kemudian klik tombol **Add Child**.
+- Selanjutnya klik tombol **Add Child**.
 
-![Menus - Add Child](/images/chinook-menus-add-child.png)
+  ![Menus - Add Child](/images/chinook-menus-add-child.png)
 
-Pada form **Menu** yang muncul, isi **Caption** dengan "Store" atau sesuai dengan yang anda inginkan.
+- Pada form **Menu** yang muncul, isi **Caption** dengan `Store` kemudian klik tombol **OK**.
 
-![Menus - Add Child 1 - Caption](/images/chinook-menu-caption-child-1.png)
+  ![Menus - Add Child 1 - Caption](/images/chinook-menu-caption-child-1.png)
 
-Pastikan kursor berada pada _menu child_ **Store** kemudian klik tombol **Add Child**.
+- Pastikan kursor berada pada _menu child_ `Store` kemudian klik tombol **Add Child**.
 
-![Menus - Add Child 1](/images/chinook-menus-add-child-1.png)
+  ![Menus - Add Child 1](/images/chinook-menus-add-child-1.png)
 
-Pada form **Menu** yang muncul, isi **Caption** dengan "Employee" atau sesuai dengan yang anda inginkan dan pada _combo box_ **Action** pilih **ACT_FRM_EMPLOYEE**, yaitu action yang telah dibuat sebelumnya.
+- Selanutnya, pada form **Menu** yang muncul, isi **Caption** dengan `Employees` dan pada _combo box_ **Action** pilih `ACT_FRM_EMPLOYEE`, yaitu _action_ yang telah kita buat sebelumnya.
 
-![Menus - Add Child 2 - Caption](/images/chinook-menu-caption-child-2.png)
+  ![Menus - Add Child 2 - Caption](/images/chinook-menu-caption-child-2.png)
 
-Masih pada form **Menu**, klik kanan pada daerah **Image** kemudian klik **Load**.
+- Masih pada form **Menu**, klik kanan pada daerah **Image** kemudian klik `Load`.
 
-![Menus - Add Child 2 - Image](/images/chinook-menus-add-child-2-image.png)
+  ![Menus - Add Child 2 - Image](/images/chinook-menus-add-child-2-image.png)
 
-Pada **Image Gallery** yang muncul pilih gambar yang diinginkan, kemudian klik **Ok**.
+- Pada **Image Gallery** yang muncul pilih gambar yang diinginkan, kemudian klik tombol **OK**.
 
-Berikut adalah tampilan akhir menu yang akan dibuat.
+  Berikut adalah tampilan akhir menu yang akan dibuat. Klik **OK** jika semua perubahan telah selesai dilakukan.
 
-![Menus - Add Child 2 - End](/images/chinook-menu-child-2-end.png)
-
-Klik **OK** jika semua perubahan telah selesai dilakukan.
+  ![Menus - Add Child 2 - End](/images/chinook-menu-child-2-end.png)
 
 ::: tip Opsional
-Kolom **Hint** dapat diisi jika diperlukan.
+Kolom **Hint** dapat anda isi jika diperlukan.
 :::
 
 Berikut adalah tampilan susunan menu yang telah dibuat.
@@ -317,15 +333,17 @@ Berikut adalah tampilan modul Employees yang telah kita buat.
 
 ![Menus - Run](/images/chinook-run.png)
 
-Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a>. Selanjutnya kita akan melakukan beberapa penyempurnaan pada aplikasi atau modul Employees ini.
+Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a>.
+
+Selanjutnya kita akan melakukan beberapa penyempurnaan pada aplikasi atau modul Employees ini.
 
 ## Form Icon
 
-- Klik ganda pada _icon_ form Employees
+- Klik ganda pada _icon_ form **Employees**
 
   ![Klik Ganda Icon Form](/images/chinook-klik-ganda-icon.png)
 
-- Pada **Metadata Objets** pilih _object form_ yaitu FRM_EMPLOYEE, kemudian klik tombol **OK**.
+- Pada **Metadata Objets** pilih _object form_ yaitu `FRM_EMPLOYEE`, kemudian klik tombol **OK**.
 
   ![Metadata Object Employees](/images/metada-object-employees.png)
 
@@ -333,29 +351,29 @@ Pada tahap ini aplikasi sudah bisa digunakan untuk melakukan proses <a href="htt
 
   ![Standar Form Designer - Change Icon](/images/chinook-std-frm-designer-change-icon.png)
 
-- Kemudian pilih gambar yang diinginkan pada **Image Gallery**, kemudian klik tombol OK, sehingga tampil gambar icon seperti gambar berikut.
+- Kemudian pilih gambar yang diinginkan pada **Image Gallery**, kemudian klik tombol **OK**, sehingga tampil gambar _icon_ seperti berikut.
 
   ![Standar Form Designer - Change Icon - hasil](/images/chinook-std-frm-designer-change-icon-1.png)
 
-- Klik tombol OK pada Standar Form Designer, sehingga modul Employees tertutup dengan sendirinya. Kemudian klik kembali menu Employees untuk membuka dan melihat perubahan yang terjadi pada modul Employees.
+- Klik tombol OK pada **Standar Form Designer**, sehingga modul **Employees** tertutup dengan sendirinya. Kemudian klik kembali menu **Employees** untuk melihat perubahan yang terjadi pada modul **Employees**.
 
   ![New Icon Form](/images/chinook-new-icon-form.png)
 
 ## Custom Lookup
 
-Selanjutnya kita akan membuat **Custom Lookup** untuk field GENDER.
+Selanjutnya kita akan membuat **Custom Lookup** untuk _field_ `GENDER`.
 
 ![Gender Field](/images/chinook-gender.png)
 
-- Klik ganda pada _icon_ form Employees untuk membuka **Metadata Objets**
+- Klik ganda pada _icon_ form **Employees** untuk membuka **Metadata Objets**
 
   ![Klik Ganda Icon Form 1](/images/chinook-klik-ganda-icon-1.png)
 
-- Pilih _object dataset_ yaitu QRY_EMPLOYEE, kemudian klik tombol **OK**.
+- Pilih _object dataset_ yaitu `QRY_EMPLOYEE`, kemudian klik tombol **OK**.
 
   ![Metadata Object Employees - QRY_EMPLOYEE](/images/metada-object-employees-qry.png)
 
-- Pada **Dataset Editor**, edit _field_ GENDER sehingga tampil **Field Editor** GENDER.
+- Pada **Dataset Editor**, edit _field_ `GENDER` sehingga tampil **Field Editor** `GENDER`.
 
   ![Edit Gender Field](/images/chinook-edit-gender.png)
 
@@ -369,7 +387,7 @@ Selanjutnya kita akan membuat **Custom Lookup** untuk field GENDER.
 
 ## Lookup Definition
 
-Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
+Selanjutnya kita akan membuat **Lookup Definition** untuk field `REPORTSTO`.
 
 ![Reports To - Field](/images/chinook-reports-to.png)
 
@@ -407,8 +425,8 @@ Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
 
   ![Tombol Datasets](/images/btn-dts.png)
 
-- Edit _dataset_ LKP_EMPLOYEE.
-- Edit _field_ REPORTSTO dengan mengisi bagian **Lookup** seperti berikut.
+- Edit _dataset_ `LKP_EMPLOYEE`.
+- Edit _field_ `REPORTSTO` dengan mengisi bagian **Lookup** seperti berikut.
 
   - Lookup Source Type : `LOOKUP DEFINITION`
   - Lookup Definition : `LKP_EMPLOYEE`
@@ -425,7 +443,7 @@ Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
 
 ## Lookup Definition - Concatenate
 
-- Ubah _lookup_ LKP_EMPLOYEE dengan ketentuan sebagai berikut
+- Ubah _lookup_ `LKP_EMPLOYEE` dengan ketentuan sebagai berikut
 
   - Bagian **Command Text**
 
@@ -457,3 +475,5 @@ Selanjutnya kita akan membuat **Lookup Definition** untuk field REPORTSTO.
 Berikut adalah tampilan hasilnya.
 
 ![Form - Export & Print - Result](/images/chinook-form-export-print-1.png)
+
+Selesai!
