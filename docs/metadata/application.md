@@ -62,6 +62,16 @@ Dan berikut adalah contoh tampilan form **User** dalam mode **Edit**.
 
 ![User - Role - Example](/images/user-role-example.png)
 
+### User - Reset Administrator Password
+
+![User - Reset Administrator Password](/images/user-reset-adm-pass.png)
+
+**Reset Administrator Password** adalah untuk men-_set_ ulang atau mengubah _password_ _user_ **Administrator**.
+
+Gambar berikut adalah form **Reset Administrator Password**.
+
+![Reset Administrator Password](/images/reset-adm-pass.png)
+
 ## Menus
 
 ![Tombol Menus](/images/btn-menus.png)
