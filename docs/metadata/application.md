@@ -76,7 +76,23 @@ Gambar berikut adalah form **Reset Administrator Password**.
 
 ![Tombol Menus](/images/btn-menus.png)
 
+Menu ini adalah untuk melakukan pengaturan menu aplikasi.
+
+### Ribbon Menu
+
 ![Menus - Ribbon](/images/app-menus-ribbon.png)
+
+Gambar berikut adalah contoh tampilan hasil dari pengaturan **Ribbon Menu** (gambar) di atas.
+
+![Ribbon Menu](/images/ribbon-menu-contoh.png)
+
+### Tool Bar
+
+![Menu Form](/images/toolbar-menu-contoh.png)
+
+### Side Menu
+
+![Side Menu](/images/side-menu-contoh.png)
 
 ![Menu Form](/images/app-menu-form.png)
 
