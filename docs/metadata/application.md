@@ -76,7 +76,9 @@ Gambar berikut adalah form **Reset Administrator Password**.
 
 ![Tombol Menus](/images/btn-menus.png)
 
-Menu ini adalah untuk melakukan pengaturan menu aplikasi yang terbagi menjadi 3 (tiga) jenis menu yaitu [Ribbon Menu](../metadata/application.md#ribbon-menu), [Tool Bar Menu](../metadata/application.md#tool-bar), dan [SIde Menu](../metadata/application.md#side-menu).
+Melalui pengaturan **Menu**, modul-modul presentasi dapat ditampilkan ke hadapan pengguna aplikasi. Menu dapat berbasis _ribbon_ atau tanpa _ribbon_.
+
+Menu memiliki 3 (tiga) jenis, yaitu [Ribbon Menu](../metadata/application.md#ribbon-menu), [Tool Bar Menu](../metadata/application.md#tool-bar), dan [SIde Menu](../metadata/application.md#side-menu).
 
 ### Ribbon Menu
 
