@@ -80,6 +80,37 @@ Berikut adalah tampilan Dataset Editor.
 
 ![Lookup Editor](/images/app-lookup-editor.png)
 
+- **Lookup Name** : nama lookup.
+- **Connection** : Koneksi yang digunakan.
+- **Lookup Type** : (`Standard`, `Custom Values`, `Dataset`, `Dataset Clone`, `DataView`)
+
+  - **Standard** digunakan untuk mendefinisikan _lookup_ yang didefinisikan dengan menuliskan perintah SQL pada **Command Text**.
+
+  ![Lookup Standard](/images/versi-1.2/lookupStandard-V1.2.svg)
+
+  - **Custom Values** digunakan untuk mendefinisikan _lookup_ yang didefinisikan sebagai daftar pasangan _key_ dan _value_, dimana setiap pasangan akan dipisahkan dengan titik koma ";". **Command Text** akan berisi pasangan tersebut.
+
+    Contoh : `1=SATU;` `2=DUA;` ...
+
+    Dataset yang menggunakan Custom Values bisa bertipe _integer_ atau _numerik_, selama isi dari pasangan _key_ dan _value_ valid.
+
+  ![Lookup Custom Value](/images/versi-1.2/lookupCustomValue-V1.2.svg)
+
+  - **Dataset** digunakan untuk mendefinisikan _lookup_ yang informasi _query_ dan setiap _field_-nya berasal dari _dataset_ tertentu. _Dataset_ mana yang akan digunakan didefinisikan dalam **Source Dataset**
+
+  ![Lookup Dataset](/images/versi-1.2/lookupDataset-V1.2.svg)
+
+  - **Dataset Clone** adalah definisi _lookup_ dimana sumbernya adalah _dataset_ lain dalam _dataview_ yang sedang diedit (misalnya pada kasus _master-detail_). Dataset mana yang akan digunakan didefinisikan dalam **Source Dataset**. Bila menggunakan _lookup_ jenis ini maka **Source Dataset** harus terdefinisi dalam DataView.
+  - **Dataview** adalah definisi _lookup_ dimana sumbernya adalah dataview, sehingga bisa didefinisikan pencarian dll. Nama DataView ditulis dalam **Source DataView**.
+
+  ![Lookup Dataview](/images/versi-1.2/lookupDataview-V1.2.svg)
+
+- **Key Fields** berisi daftar _field_ yang akan menjadi _key_ (di-_copy_ nilainya dari _lookup_ ke dalam _dataset_ yang sedang di-edit). **KeyFields** bisa lebih dari 1.
+- **Display Fields** adalah _field-field_ yang akan ditampilkan ketika _dropdown list_ muncul. Display Fields bisa lebih dari 1.
+- **Display Index** adalah indeks dari Display Fields yang akan ditampilkan ketika dropdown list tidak muncul.
+- **Filter Fields** digunakan untuk melakukan filter _lookup_ dari _dataset_ yang diedit. _Property_ ini berisi dafar _field_ yang akan di-_filter_ dan dipisahkan dengan titik koma (;). Jadi bila _filter_ _field_ diisi maka isi lookup akan di-_filter_ dengan dari _dataset_ yang diedit dengan nama yang sama.
+- **Description** digunakan untuk dokumentasi.
+
 ## SQL Values
 
 ![Tombol SQL Values](/images/btn-sql-val.png)

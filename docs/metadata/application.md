@@ -20,7 +20,7 @@ Berikut adalah contoh tampilan form **Application Info**
 
 Menu **Roles** adalah untuk melakukan pengaturan hak akses setiap menu yang nantinya akan ditetapkan kepada [Users](./application.md#users).
 
-Secara _default_ terdapat 2 (dua) _role_ yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
+Terdapat 2 (dua) _role_ bawaan yang telah telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
 
 ![Roles](/images/app-roles.png)
 
@@ -42,7 +42,7 @@ Berikut adalah tampilan form **Role** ketika akan menambahkan _role_ baru.
 
 Menu **Users** adalah untuk melakukan pengaturan _user_ (pengguna) aplikasi Epigoni.
 
-Secara _default_ terdapat 2 (dua) _user_ yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
+Terdapat 2 (dua) _user_ bawaan yang telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
 
 ![Users](/images/app-users.png)
 
@@ -78,7 +78,7 @@ Gambar berikut adalah form **Reset Administrator Password**.
 
 Melalui pengaturan **Menu**, modul-modul presentasi dapat ditampilkan ke hadapan pengguna aplikasi. Menu dapat berbasis _ribbon_ atau tanpa _ribbon_.
 
-Menu memiliki 3 (tiga) jenis, yaitu [Ribbon Menu](../metadata/application.md#ribbon-menu), [Tool Bar Menu](../metadata/application.md#tool-bar), dan [SIde Menu](../metadata/application.md#side-menu).
+Terdapat 3 (tiga) jenis menu, yaitu [Ribbon Menu](../metadata/application.md#ribbon-menu), [Tool Bar Menu](../metadata/application.md#tool-bar), dan [SIde Menu](../metadata/application.md#side-menu).
 
 ### Ribbon Menu
 

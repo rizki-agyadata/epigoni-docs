@@ -4,7 +4,7 @@ sidebarDepth: 3
 
 # Demo Pembuatan Aplikasi
 
-Kita akan membuat sebuah aplikasi sederhana untuk mendemonstrasikan secara singkat bagaimana bekerja dengan Epigoni.
+Pada halaman ini akan diuraikan langkah-langkah pembuatan aplikasi sederhana. Dengan tujuan untuk mendemonstrasikan bagaimana bekerja dengan Epigoni.
 
 ## Prasyarat
 
