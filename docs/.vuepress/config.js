@@ -15,6 +15,14 @@ module.exports = {
       { text: "Demo", link: "/demo-app/" },
       { text: "Portal", link: "/portal/" },
       { text: "Metadata", link: "/metadata/" },
+      {
+        text: "Tutorials",
+        ariaLabel: "Tutorials Menu",
+        items: [
+          { text: "Connections", link: "/connections/" },
+          { text: "Datasets", link: "/datasets/" },
+        ],
+      },
       { text: "Versi 1.2", link: "/guide/" },
     ],
     sidebar: {
@@ -38,6 +46,8 @@ module.exports = {
         "membuatAplikasi",
         "membuatAplikasi-Versi-1.2",
       ],
+      "/connections/": ["", "firebird"],
+      "/datasets/": ["", "dataset-baru"],
       // fallback
       "/": [""],
     },

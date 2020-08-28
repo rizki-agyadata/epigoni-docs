@@ -6,4 +6,6 @@ sidebarDepth: 3
 
 ![Tombol Actions](/images/btn-act.png)
 
+**Action** merupakan objek yang akan dieksekusi oleh menu atau tombol sehingga objek-objek dari bagian [presentasi](../metadata/presentations.md) bisa ditampilkan atau dijalankan.
+
 ![Actions](/images/app-actions.png)

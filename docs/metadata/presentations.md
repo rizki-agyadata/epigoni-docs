@@ -22,4 +22,8 @@ sidebarDepth: 3
 
 ![Tombol Reports](/images/btn-rpt.png)
 
+**Report** digunakan untuk menampilkan data berdasarkan model data dalam bentuk siap cetak.
+
+Epigoni menyediakan _report designer_ untuk mendefinisikan _report_ yang dibutuhkan aplikasi yang siap untuk dicetak atau diekspor ke berbagai format yang diinginkan. _Report designer_ disediakan dalam beberapa bentuk: berbasis _band_, berbasis MS Excel atau berbasis _text_.
+
 ![Reports](/images/app-reports.png)

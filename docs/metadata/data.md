@@ -24,6 +24,13 @@ Berikut adalah tampilan form **Connection Editor**
 - Parameters: Konfigurasi parameter _database_
 - Test Connection (tombol) : Untuk melakukan _test_ koneksi
 
+::: details Connections Tutorials
+
+- [Membuat Koneksi Database Firebird](../connections/firebird.md)
+  :::
+
+---
+
 ## Datasets
 
 ![Tombol Datasets](/images/btn-dts.png)
@@ -76,6 +83,8 @@ Berikut adalah tampilan Dataset Editor.
 
 ![Tombol Lookups](/images/btn-lkp.png)
 
+Lookup merupakan objek yang berfungsi sebagai referensi dan pencarian data ketika mengisi data pada _combo box_ sehingga bisa ditampilkan dalam bentuk daftar dan memudahkan proses entri data.
+
 ![Lookups](/images/app-lookups.png)
 
 ![Lookup Editor](/images/app-lookup-editor.png)
@@ -114,6 +123,8 @@ Berikut adalah tampilan Dataset Editor.
 ## SQL Values
 
 ![Tombol SQL Values](/images/btn-sql-val.png)
+
+SQL Value merupakan sebuah nilai tunggal dari SQL yang akan diisikan kepada _field_ yang memanggilnya.
 
 ![SQL Values](/images/app-sql-values.png)
 
