@@ -47,7 +47,7 @@ module.exports = {
         "membuatAplikasi-Versi-1.2",
       ],
       "/connections/": ["", "firebird"],
-      "/datasets/": ["", "dataset-baru", "captions"],
+      "/datasets/": ["", "dataset-baru", "captions", "set-category"],
       // fallback
       "/": [""],
     },
