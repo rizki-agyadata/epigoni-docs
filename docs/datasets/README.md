@@ -8,3 +8,4 @@ sidebarDepth: 3
 - [Captions](../datasets/captions.md)
 - [Draw Width Dan Label Width](../datasets/dw-lw.md)
 - [Duplicate Dataset](../datasets/duplicate-dataset.md)
+- [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md)

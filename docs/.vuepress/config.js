@@ -21,6 +21,7 @@ module.exports = {
         items: [
           { text: "Connections", link: "/connections/" },
           { text: "Datasets", link: "/datasets/" },
+          { text: "Data Packages", link: "/datapackages/" },
         ],
       },
       { text: "Versi 1.2", link: "/guide/" },
@@ -56,6 +57,7 @@ module.exports = {
         "duplicate-dataset",
         "create-datapackage-form-action",
       ],
+      "/datapackages/": ["", "datapackage-baru"],
       // fallback
       "/": [""],
     },

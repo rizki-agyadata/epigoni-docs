@@ -4,6 +4,8 @@ sidebarDepth: 3
 
 # Create Data Package, Form, and Action
 
+Menu atau fungsi ini terdapat pada modul **Datasets** untuk men-_generate_ `Data Package`, `Form` dan `Action` dari _dataset_ yang telah dibuat. Masing-masing objek metada yang dihasilkan, akan terbentuk dengan konfigurasi "standar".
+
 - Klik kanan pada dataset yang dimaksud, pada _grid_ Datasets.
 - Kemudian klik salah satu pilihan yang muncul:
   - `Create Data Package`.
