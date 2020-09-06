@@ -16,8 +16,28 @@ Sebelum membuat _datapackage_, diasumsikan [dataset](../datasets/) sudah dibuat 
 
   ![Data Packages](/images/app-data-packages.png)
 
-- Klik tombol **Add** sehingga muncul dialog seperti gambar berikut.
+- Klik tombol **Add**, dan tentukan nama _data package_ pada inputan yang muncul seperti gambar berikut.
 
-::: danger Info
-Tutorial ini masing dalam proses penulisan.
-:::
+  ![Dialog - Create Data Package](/images/dialog-create-data-package.png)
+
+- Edit _data package_ yang telah dibuat, sehingga tampil **Data Package Editor** seperti gambar di bawah.
+
+  ![Data Package Editor](/images/data-package-editor-pkg_artist.png)
+
+- Isi `Data Package Title` sesuai dengan keperluan.
+- Pada tab **Members**, klik tombol **Add** sehingga tampil **Data Package Member** seperti gambar di bawah.
+
+  - Kemudian, klik tombol [...] pada _edit box_ **Dataset**.
+
+  ![Data Package Member](/images/data-package-member.png)
+
+- Pilih _dataset_ yang dimaksud, kemudian klik tombol **OK** atau klik ganda pada _dataset_ yang dipilih.
+
+  ![Select Dataset](/images/select-dataset-qry_artist.png)
+
+- Pastikan _edit box_ **Dataset** telah terisi dengan nama _dataset_ yang dipilih pada **Data Package Member**, klik tombol **OK**.
+- Kemudian klik tombol **Close** pada **Data Package Editor**.
+
+  ![Data Package Artist](/images/data-package-artist.png)
+
+Sampai tahap ini Data Package telah berhasil dibuat.
