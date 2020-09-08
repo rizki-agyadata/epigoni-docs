@@ -36,8 +36,17 @@ Sebelum membuat _datapackage_, diasumsikan [dataset](../datasets/) sudah dibuat 
   ![Select Dataset](/images/select-dataset-qry_artist.png)
 
 - Pastikan _edit box_ **Dataset** telah terisi dengan nama _dataset_ yang dipilih pada **Data Package Member**, klik tombol **OK**.
+
+  ![Member Dataset QRY_ARTIST](/images/member-dataset-qry_artist.png)
+
 - Kemudian klik tombol **Close** pada **Data Package Editor**.
 
   ![Data Package Artist](/images/data-package-artist.png)
 
-Sampai tahap ini Data Package telah berhasil dibuat.
+- Sampai tahap ini Data Package telah berhasil dibuat.
+
+  ![Data Package PKG_ARTIST](/images/datapackage-pkg_artist.png)
+
+- (Opsional) klik tombol `Preview` untuk memastikan Data Package berjalan dengan baik.
+
+  ![Data Package PKG_ARTIST - Preview](/images/datapackage-pkg_artist-preview.png)

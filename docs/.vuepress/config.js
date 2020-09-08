@@ -56,6 +56,7 @@ module.exports = {
         "dw-lw",
         "duplicate-dataset",
         "create-datapackage-form-action",
+        "parameter-dataset",
       ],
       "/datapackages/": ["", "datapackage-baru"],
       // fallback
