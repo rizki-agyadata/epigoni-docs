@@ -43,3 +43,20 @@ sidebarDepth: 3
 - Isi _field_ `Artistid` dengan nilai yang tertentu, kemudian klik tombol **OK**, sehingga tampil seperti gambar berikut.
 
   ![Dataset Album - Preview](/images/dataset-album-parameter-preview.png)
+
+Dengan parameter yang telah kita buat, pengguna dapat memfilter atau mencari data **Album** dengan mengisi terlebih dahulu data `ARTISTID` secara persisi, hal ini dikarenakan kondisi pada pernyataan SQL yang didefinisakan adalah `ARTISTID = :ARTISTID`.
+
+Pada Epigoni, jika pernyataan SQL pada sintaks parameter diberi tanda `{}` maka data akan tampil tanpa harus diisi nilai parameter terlebih dahulu. Untuk melihat perbedaannya, ubah pernyataan SQL menjadi seperti berikut.
+
+```sql
+SELECT
+  ALBUMID, TITLE, ARTISTID
+FROM
+  ALBUM
+WHERE
+  {ARTISTID = :ARTISTID}
+```
+
+Berikut adalah hasil tampilan _preview_.
+
+![Dataset Album - All - Preview](/images/dataset-album-parameter-all-preview.png)
