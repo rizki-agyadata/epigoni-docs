@@ -32,7 +32,7 @@ sidebarDepth: 3
   - **Size**, digunakan untuk mendefinisikan ukuran parameter
   - **Precision**, digunakan untuk mendefinisikan berapa jumlah digit yang digunakan dalam parameter untuk parameter bertipe numerik.
   - **Numeric Scale**, digunakan untuk mendefinisikan berapa jumlah _digit_ di belakang koma yang digunakan dalam parameter yang bertipe numerik.
-  - **Value**, nilai parameter, hanya digunakan dalam Builder.
+  - **Value**, digunakan untuk men-_set_ nilai parameter ketika pertama kali dataset dijalankan, hanya digunakan dalam Builder.
 
     :::
 

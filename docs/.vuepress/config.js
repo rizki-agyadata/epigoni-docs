@@ -58,7 +58,7 @@ module.exports = {
         "create-datapackage-form-action",
         "parameter-dataset",
       ],
-      "/datapackages/": ["", "datapackage-baru"],
+      "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       // fallback
       "/": [""],
     },
