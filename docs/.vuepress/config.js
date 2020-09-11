@@ -22,6 +22,8 @@ module.exports = {
           { text: "Connections", link: "/connections/" },
           { text: "Datasets", link: "/datasets/" },
           { text: "Data Packages", link: "/datapackages/" },
+          { text: "Lookups", link: "/lookups/" },
+          { text: "SQL Values", link: "/sqlvalues/" },
         ],
       },
       { text: "Versi 1.2", link: "/guide/" },
@@ -59,6 +61,8 @@ module.exports = {
         "parameter-dataset",
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
+      "/lookups/": ["", "standard", "custom-values"],
+      "/sqlvalues/": ["", "sqlvalue-baru"],
       // fallback
       "/": [""],
     },
