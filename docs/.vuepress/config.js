@@ -24,6 +24,8 @@ module.exports = {
           { text: "Data Packages", link: "/datapackages/" },
           { text: "Lookups", link: "/lookups/" },
           { text: "SQL Values", link: "/sqlvalues/" },
+          { text: "Forms", link: "/forms/" },
+          { text: "Actions", link: "/actions-metadata/" },
         ],
       },
       { text: "Versi 1.2", link: "/guide/" },
@@ -63,6 +65,8 @@ module.exports = {
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       "/lookups/": ["", "standard", "custom-values"],
       "/sqlvalues/": ["", "sqlvalue-baru"],
+      "/forms/": ["", "form-baru"],
+      "/actions-metadata/": ["", "action-baru"],
       // fallback
       "/": [""],
     },

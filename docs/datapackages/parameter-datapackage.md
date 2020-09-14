@@ -12,4 +12,4 @@ sidebarDepth: 3
 
   ![Data Package Parameter - ARTISTID](/images/datapackage-parameters-artistid.png)
 
-- Selanjutnya lengkapi parameter yang telah dibuat, seperti mengubah `Label Caption`, menambahkan `Lookup` dan sebagainya sesuai dengan keperluan.
+- Selanjutnya lengkapi parameter yang telah dibuat sesuai dengan kebutuhan, seperti mengubah `Label Caption`, menambahkan `Lookup` dan sebagainya.
