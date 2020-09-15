@@ -4,6 +4,14 @@ sidebarDepth: 3
 
 # Membuat Koneksi Database Firebird
 
+- Pertama-tama, pastikan menu **Connections** sudah terbuka dengan mengklik menu **Connections** seperti gambar di bawah.
+
+  ![Tombol Connections](/images/btn-con.png)
+
+  Berikut adalah tampilan tabel **Connections**
+
+  ![Connections](/images/app-connections.png)
+
 - Klik tombol **Add** hingga tampil **Connection Editor** seperti gambar berikut.
 
   ![Connection Editor](/images/app-conn-editor.png)

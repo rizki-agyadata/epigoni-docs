@@ -6,7 +6,7 @@ sidebarDepth: 3
 
 Untuk membuat _dataset_, pastikan [Connection](../connections/) sudah dibuat terlebih dahulu. Jika sudah tersedia, ikuti langkah-langkah sebagai berikut.
 
-- Klik menu **Datasets**.
+- Pertama-tama, pastikan menu **Datasets** sudah terbuka dengan mengklik menu **Datasets** seperti gambar di bawah.
 
   ![Tombol Datasets](/images/btn-dts.png)
 

@@ -27,7 +27,8 @@ Berikut adalah tampilan form **Connection Editor**
 ::: details Connections Tutorials
 
 - [Membuat Koneksi Database Firebird](../connections/firebird.md)
-  :::
+
+:::
 
 ---
 
@@ -70,6 +71,17 @@ Berikut adalah tampilan Dataset Editor.
 - **Events** : Untuk menuliskan kode _script_ yang akan dieksekusi ketika event tertentu dari data set terjadi.
 - **Data Exchanges** : -
 - **Description** : Deskripsi dari _data set_ yang bersangkutan untuk kepentingan dokumentasi.
+
+::: details Datasets Tutorials
+
+- [Membuat Dataset Baru](../datasets/dataset-baru.md)
+- [Captions](../datasets/captions.md)
+- [Draw Width Dan Label Width](../datasets/dw-lw.md)
+- [Duplicate Dataset](../datasets/duplicate-dataset.md)
+- [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md)
+- [Parameter Dataset](../datasets/parameter-dataset.md)
+
+:::
 
 ## Commands
 
@@ -120,6 +132,13 @@ Lookup merupakan objek yang berfungsi sebagai referensi dan pencarian data ketik
 - **Filter Fields** digunakan untuk melakukan filter _lookup_ dari _dataset_ yang diedit. _Property_ ini berisi dafar _field_ yang akan di-_filter_ dan dipisahkan dengan titik koma (;). Jadi bila _filter_ _field_ diisi maka isi lookup akan di-_filter_ dengan dari _dataset_ yang diedit dengan nama yang sama.
 - **Description** digunakan untuk dokumentasi.
 
+::: details Lookups Tutorials
+
+- [Membuat Lookup Standard](../lookups/standard.md)
+- [Membuat Lookup Custom Value](../lookups/custom-values.md)
+
+:::
+
 ## SQL Values
 
 ![Tombol SQL Values](/images/btn-sql-val.png)
@@ -129,3 +148,9 @@ SQL Value merupakan sebuah nilai tunggal dari SQL yang akan diisikan kepada _fie
 ![SQL Values](/images/app-sql-values.png)
 
 ![SQL Value Editor](/images/app-sql-value-editor.png)
+
+::: details SQL Values Tutorials
+
+- [Membuat SQL Value Baru](../sqlvalues/sqlvalue-baru.md)
+
+:::

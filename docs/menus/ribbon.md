@@ -4,7 +4,7 @@ sidebarDepth: 3
 
 # Ribbon Menu
 
-- Pertama-tama, pastikan menu **Menus** sudah terbuka dengan menklik menu **Menus** seperti gambar di bawah.
+- Pertama-tama, pastikan menu **Menus** sudah terbuka dengan mengklik menu **Menus** seperti gambar di bawah.
 
   ![Tombol Forms](/images/btn-menus.png)
 

@@ -14,6 +14,13 @@ sidebarDepth: 3
 
 [Data Set](../metadata/data.md#datasets) pada Data Package didefinisikan secara terpisah dan mandiri. Sebuah definisi [Data Set](../metadata/data.md#datasets) dapat digunakan bersama oleh beberapa _Data Package_.
 
+::: details Data Packages Tutorials
+
+- [Membuat Data Package Baru](../datapackages/datapackage-baru.md)
+- [Parameter Data Package](../datapackages/parameter-datapackage.md)
+
+:::
+
 ## Data Processes
 
 ![Tombol Data Processes](/images/btn-dat-prcs.png)
