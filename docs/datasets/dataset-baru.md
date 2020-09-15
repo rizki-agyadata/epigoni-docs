@@ -10,7 +10,7 @@ Untuk membuat _dataset_, pastikan [Connection](../connections/) sudah dibuat ter
 
   ![Tombol Datasets](/images/btn-dts.png)
 
-  Sehingga tampil modul **Datasets** seperti gambar berikut.
+  Sehingga tampil tabel **Datasets** seperti gambar berikut.
 
   ![Datasets](/images/app-datasets.png)
 
@@ -18,7 +18,7 @@ Untuk membuat _dataset_, pastikan [Connection](../connections/) sudah dibuat ter
 
   ![Dataset Editor](/images/app-dataset-editor.png)
 
-# Dataset
+## Dataset
 
 Pada bagian atas **Dataset Editor** terdapat kelompok inputan yang bernama **Dataset**. Isilah inputan-inputan tersebut dengan ketentuan sebagai berikut.
 
@@ -48,7 +48,7 @@ Untuk keperluan standar, inputan bagian **Dataset** cukup sampai di sini, sedang
 
 ## Command Text
 
-Selanjutnya, mengisi bagian **Command Text** sesuai dengan jenis **Command Type** yang dipilih. Umumnya **Command Type** adalah `SQL`. Jika demikian, maka isilah area **Command Text** dengan perintah SQL seperti contoh berikut:
+Selanjutnya adalah mengisi bagian **Command Text** sesuai dengan jenis **Command Type** yang dipilih pada bagian **Dataset** di atas. Umumnya **Command Type** adalah `SQL`. Berikut adalah contoh pernyataan SQL _select_ dari tabel EMPLOYEE:
 
 ```sql
 SELECT

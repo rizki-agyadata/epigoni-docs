@@ -10,6 +10,12 @@ sidebarDepth: 3
 
 **Form** digunakan untuk menampilkan dan memanipulasi data dari _database_ berdasarkan model data. Saat ini hanya ada satu tipe form yaitu **Standard Form**. Epigoni menyediakan form designer untuk mendefinisikan Standard Form. Standard Form membentuk form dengan pendekatan `knock-down`. Komponen penyusun form berupa blok-blok _user interface_ yang fungsional berdasarkan definisi model data.
 
+:: details Forms Tutorials
+
+- [Membuat Form Baru](../forms/form-baru.md)
+
+:::
+
 ![Forms](/images/app-forms.png)
 
 ## Process Dialogs
