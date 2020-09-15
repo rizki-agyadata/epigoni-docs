@@ -4,7 +4,9 @@ sidebarDepth: 3
 
 # Membuat Data Package Baru
 
-Pada tutorial sebelumnya yaitu [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md), membuat Data Package dapat dilakukan dengan cara singkat dari _dataset_. Untuk tutorial Kali ini akan diuraikan langkah-langkah membuat Data Package dengan cara manual dari menu Data Packages itu sendiri.
+Pada tutorial sebelumnya yaitu [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md), diuraikan bagaimana membuat Data Package dengan cara di-_generate_ dari _dataset_.
+
+Pada tutorial Kali ini akan diuraikan langkah-langkah membuat Data Package dengan cara manual dari menu Data Packages itu sendiri.
 
 Sebelum membuat _datapackage_, diasumsikan [dataset](../datasets/) sudah dibuat terlebih dahulu. Jika sudah tersedia, ikuti langkah-langkah sebagai berikut.
 

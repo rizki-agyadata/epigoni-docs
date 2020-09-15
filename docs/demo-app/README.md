@@ -293,7 +293,7 @@ Sekarang `Data Package`, `Form`, dan `Action` telah berhasil dibuat. Untuk memas
 
   ![Menus - Add Child 1](/images/chinook-menus-add-child-1.png)
 
-- Selanutnya, pada form **Menu** yang muncul, isi **Caption** dengan `Employees` dan pada _combo box_ **Action** pilih `ACT_FRM_EMPLOYEE`, yaitu _action_ yang telah kita buat sebelumnya.
+- Selanjutnya, pada form **Menu** yang muncul, isi **Caption** dengan `Employees` dan pada _combo box_ **Action** pilih `ACT_FRM_EMPLOYEE`, yaitu _action_ yang telah kita buat sebelumnya.
 
   ![Menus - Add Child 2 - Caption](/images/chinook-menu-caption-child-2.png)
 
@@ -303,9 +303,13 @@ Sekarang `Data Package`, `Form`, dan `Action` telah berhasil dibuat. Untuk memas
 
 - Pada **Image Gallery** yang muncul pilih gambar yang diinginkan, kemudian klik tombol **OK**.
 
-  Berikut adalah tampilan akhir menu yang akan dibuat. Klik **OK** jika semua perubahan telah selesai dilakukan.
+  ![Image Gallery](/images/image-gallery.png)
+
+  Berikut adalah tampilan akhir menu yang akan dibuat.
 
   ![Menus - Add Child 2 - End](/images/chinook-menu-child-2-end.png)
+
+  Klik **OK** jika semua perubahan telah selesai dilakukan.
 
 ::: tip Opsional
 Kolom **Hint** dapat anda isi jika diperlukan.
