@@ -10,8 +10,7 @@ Pada halaman ini akan diuraikan langkah-langkah pembuatan aplikasi sederhana. De
 
 - Sistem Operasi Windows, minimal Windows 7 ke atas
 - <a href="https://firebirdsql.org/" target="_blank">Firebird</a>, minimal versi 2.5
-- Epigoni
-- _Database_ contoh (yang telah disiapkan)
+- Epigoni dan _database_ contoh. Telah disediakan pada bagian **Persiapan**.
 
 ## Persiapan
 

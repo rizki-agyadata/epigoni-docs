@@ -68,7 +68,7 @@ module.exports = {
       "/sqlvalues/": ["", "sqlvalue-baru"],
       "/forms/": ["", "form-baru"],
       "/actions-metadata/": ["", "action-baru"],
-      "/menus/": ["", "ribbon"],
+      "/menus/": ["", "ribbon", "tool-bar", "side-menu"],
       // fallback
       "/": [""],
     },

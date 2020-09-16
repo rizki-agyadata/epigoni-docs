@@ -96,6 +96,14 @@ Gambar berikut adalah contoh tampilan hasil dari pengaturan **Ribbon Menu** (gam
 
 ![Side Menu](/images/side-menu-contoh.png)
 
+::: details Menus Tutorials
+
+- [Ribbon Menu](../menus/ribbon.md)
+- [Tool Bar Menu](../menus/tool-bar.md)
+- [Side Menu](../menus/side-menu.md)
+
+:::
+
 Berikut adalah tampilan form **Menu**.
 
 ![Menu Form](/images/app-menu-form.png)

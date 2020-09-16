@@ -12,7 +12,7 @@ sidebarDepth: 3
 
   ![Modul Menus](/images/menus-modul.png)
 
-**Ribbon Menu** terdiri atas minimal 3 level, yaitu `Tab`, `Group` dan `Menu`. Dua level pertama tidak dapat diisi dengan _action_, melainkan membentuk `Tab` dan `Group`. Level ke tiga dan selanjutnya (tidak terbatas) dapat diisi dengan _action_.
+**Ribbon Menu** terdiri atas minimal 3 (tiga) level, yaitu `Tab`, `Group` dan `Menu`. Dua level pertama tidak dapat diisi dengan _action_, melainkan membentuk `Tab` dan `Group`. Level ketiga dan selanjutnya (tidak terbatas) dapat diisi dengan _action_.
 
 ## Tab
 
@@ -62,4 +62,6 @@ sidebarDepth: 3
 
   ![Menus - Final](/images/chinook-menus-final.png)
 
-  Untuk melihat hasilnya, klik tombol Run untuk menjalankan aplikasi Epigoni.
+  Jika aplikasi dijalankan maka Ribbon Menu akan tampak seperti yang ditunjukan pada gambar berikut.
+
+  ![Ribbon Menu - Preview](/images/ribbon-menu-preview.png)
