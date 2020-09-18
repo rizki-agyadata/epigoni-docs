@@ -27,6 +27,7 @@ module.exports = {
           { text: "Forms", link: "/forms/" },
           { text: "Actions", link: "/actions-metadata/" },
           { text: "Menus", link: "/menus/" },
+          { text: "Application", link: "/application-metadata/" },
         ],
       },
       { text: "Versi 1.2", link: "/guide/" },
@@ -69,6 +70,7 @@ module.exports = {
       "/forms/": ["", "form-baru"],
       "/actions-metadata/": ["", "action-baru"],
       "/menus/": ["", "ribbon", "tool-bar", "side-menu"],
+      "/application-metadat/": ["", "roles"],
       // fallback
       "/": [""],
     },
