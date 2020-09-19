@@ -29,7 +29,7 @@ sidebarDepth: 3
 
   ![Tombol Role - Menu](/images/roles-menu-btn.png)
 
-  **Menu** pada modul **Roles** ini adalah untuk menentukan hak ases setiap menu kepada **Role** tertentu.
+  Tombol **Menu** pada modul **Roles** ini adalah untuk menentukan hak ases setiap menu kepada **Role** tertentu.
 
   - Beri tanda ceklis pada setiap menu yang akan ditetapkan kepada Role yang telah dibuat, misalnya seperti pada gambar di bawah.
 

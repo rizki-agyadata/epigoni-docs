@@ -70,7 +70,7 @@ module.exports = {
       "/forms/": ["", "form-baru"],
       "/actions-metadata/": ["", "action-baru"],
       "/menus/": ["", "ribbon", "tool-bar", "side-menu"],
-      "/application-metadat/": ["", "roles"],
+      "/application-metadata/": ["", "roles", "users"],
       // fallback
       "/": [""],
     },
