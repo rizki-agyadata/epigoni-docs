@@ -4,6 +4,17 @@ sidebarDepth: 3
 
 # Users
 
+Pada Epigoni, terdapat 2 (dua) User bawaan yang telah tersedia yaitu `DEVELOPER` dan `ADMINISTRATOR`. Masing-masing diperuntukan untuk mengakses 2 (dua) bagian saat _login_ yaitu:
+
+1. `DEVELOPER`, ketika mengakses [metadata](../metadata/).
+2. `ADMINISTRATOR`, ketika aplikasi [dijalankan](../portal/menuPengaturanAplikasi.md#run).
+
+Masing-masing User _password_ telah diatur ketika pertama kali [aplikasi dibuat](../portal/appPortal.md#create-new-application).
+
+Selanjutnya, pada halaman ini akan diuraikan secara singkat bagaimana membuat User baru.
+
+## Tambah User Baru
+
 - Pertama-tama, pastikan menu **Users** sudah terbuka dengan mengklik menu **Users** seperti gambar di bawah.
 
   ![Tombol Users](/images/btn-users.png)
@@ -11,8 +22,6 @@ sidebarDepth: 3
   Berikut adalah tampilan tabel **Users**
 
   ![Users](/images/app-users.png)
-
-  Terdapat 2 (dua) User bawaan yang telah telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
 
 - Klik tombol **Add** hingga tampil form **User** seperti gambar berikut.
 
