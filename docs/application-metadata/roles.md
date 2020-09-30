@@ -4,6 +4,8 @@ sidebarDepth: 3
 
 # Roles
 
+Terdapat 2 (dua) Role bawaan yang telah tersedia pada aplikasi Epigoni, yaitu `ADMINISTRATOR` dan `DEVELOPER`. Jika diperlukan, Role baru bisa ditambahkan. Berikut akan diuraikan secara singkat bagaimana membuat Role baru.
+
 - Pertama-tama, pastikan menu **Roles** sudah terbuka dengan mengklik menu **Roles** seperti gambar di bawah.
 
   ![Tombol Roles](/images/btn-roles.png)
@@ -12,9 +14,7 @@ sidebarDepth: 3
 
   ![Roles](/images/app-roles.png)
 
-  Terdapat 2 (dua) Role bawaan yang telah telah tersedia, yaitu `ADMINISTRATOR` dan `DEVELOPER`.
-
-- Klik tombol **Add** hingga tampil form **Role** seperti gambar berikut.
+* Klik tombol **Add** hingga tampil form **Role** seperti gambar berikut.
 
   ![Role Form](/images/app-role-form.png)
 
@@ -25,7 +25,7 @@ sidebarDepth: 3
 
   Kemudian klik tombol OK untuk menyimpan Role.
 
-- Pastikan kursor aktif pada Role yang telah dibuat kemudian klik tombol `Menu`.
+* Pastikan kursor aktif pada Role yang telah dibuat kemudian klik tombol `Menu`.
 
   ![Tombol Role - Menu](/images/roles-menu-btn.png)
 

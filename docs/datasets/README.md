@@ -10,3 +10,4 @@ sidebarDepth: 3
 - [Duplicate Dataset](../datasets/duplicate-dataset.md)
 - [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md)
 - [Parameter Dataset](../datasets/parameter-dataset.md)
+- [Updateable](../datasets/upd.md)

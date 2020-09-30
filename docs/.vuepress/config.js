@@ -63,6 +63,7 @@ module.exports = {
         "duplicate-dataset",
         "create-datapackage-form-action",
         "parameter-dataset",
+        "upd",
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       "/lookups/": ["", "standard", "custom-values"],
