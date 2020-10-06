@@ -11,3 +11,4 @@ sidebarDepth: 3
 - [Create Data Package, Form, and Action](../datasets/create-datapackage-form-action.md)
 - [Parameter Dataset](../datasets/parameter-dataset.md)
 - [Updateable](../datasets/upd.md)
+- [Visible Dan Enable](../datasets/visible-enable.md)
