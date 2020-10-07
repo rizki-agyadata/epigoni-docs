@@ -64,7 +64,8 @@ module.exports = {
         "create-datapackage-form-action",
         "parameter-dataset",
         "upd",
-        "visible-enable"
+        "visible-enable",
+        "ds-control-position",
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       "/lookups/": ["", "standard", "custom-values"],
