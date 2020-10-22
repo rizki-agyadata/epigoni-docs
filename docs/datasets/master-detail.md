@@ -86,7 +86,7 @@ Untuk membuat form, kita lakukan seperti pada langkah membuat Data Package, yait
 
 ![PKG_PLAYLIST - Generate Form](/images/pkg-playlist-generate-form.png)
 
-Kemudian pada form yang telah terbentuk, klik tombol **Design**.
+Kemudian pada form `FRM_PLAYLIST` yang telah terbentuk, klik tombol **Design**.
 
 ![FRM_PLAYLIST - Tombol Design](/images/frm-playlist-tombol-design.png)
 
@@ -97,3 +97,7 @@ Pada Standard Form Designer, klik tab **Content**, kemudian klik pada **MultiTab
 Selanjutnya pada **EditorType** pilih `dpeMasterDetail`.
 
 ![FRM_PLAYLIST - Editor Type](/images/editor-type-dpemasterdetail.png)
+
+Sampai pada tahap ini, penerapan konsep Master-Detail telah terpenuhi. Untuk mencobanya, klik tombol **Refresh Preview** atau **Preview Modal** kemudian lakukan proses tambah atau ubah. Form Playlist akan tampak seperti pada gambar berikut.
+
+![FRM_PLAYLIST - Master Detail - Edit Mode](/images/form-playlist-master-detail-edit.png)
