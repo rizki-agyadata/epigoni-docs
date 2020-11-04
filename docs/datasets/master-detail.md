@@ -2,9 +2,9 @@
 
 Konsep <a href="https://en.wikipedia.org/wiki/Master–detail_interface" target="_blank">Master-Detail</a> dalam <a href="https://en.wikipedia.org/wiki/Relational_database" target="_blank">relational database</a> disebut juga dengan <a href="https://en.wikipedia.org/wiki/Relational_database" target="_blank">One-to-many</a>. Artinya satu _record_ dalam sebuah _dataset_ dapat direlasikan dengan banyak _record_ di _dataset_ lain.
 
-Untuk mengimplementasikan konsep Master-Detail pada Epigoni, perlu dibuatkan dan dilakukan pengaturan-pengaturan tertentu pada tiga bagian metadata, yaitu: dataset, data package, dan form.
+Untuk mengimplementasikan konsep Master-Detail pada Epigoni, perlu dibuat dan dilakukan pengaturan-pengaturan tertentu pada tiga bagian metadata, yaitu: dataset, data package, dan form.
 
-Pada tutorial pembuatan Master-Detail ini, _database_ yang digunakan adalah `Chinook`, yaitu seperti yang digunakan pada tutorial [Demo](../demo-app/README.md). Silahkan unduh file _database_ `Chinook_db.zip` yang terdapat dalam folder <a href="https://drive.google.com/open?id=0B601Tr2tSGr2T2Vyd3JhOTV4VEE" target="_blank">Epigoni 1.5</a>.
+Pada tutorial kali ini, _database_ yang digunakan adalah `Chinook`, yaitu seperti yang digunakan pada tutorial [Demo](../demo-app/README.md). Silahkan unduh file _database_ `Chinook_db.zip` yang terdapat dalam folder <a href="https://drive.google.com/open?id=0B601Tr2tSGr2T2Vyd3JhOTV4VEE" target="_blank">Epigoni 1.5</a>.
 
 ## Dataset
 
@@ -101,3 +101,21 @@ Selanjutnya pada **EditorType** pilih `dpeMasterDetail`.
 Sampai pada tahap ini, penerapan konsep Master-Detail telah terpenuhi. Untuk mencobanya, klik tombol **Refresh Preview** atau **Preview Modal** kemudian lakukan proses tambah atau ubah. Form Playlist akan tampak seperti pada gambar berikut.
 
 ![FRM_PLAYLIST - Master Detail - Edit Mode](/images/form-playlist-master-detail-edit.png)
+
+Selain menggunakan **MultiTable**, form Master-Detail dapat juga dibuat dengan menggunakan **Table**. Prinsipnya sama dengan **MultiTable** yaitu mengatur **DatasetName** dengan dataset master `QRY_PLAYLIST` **DatasetDetailName** dengan dataset detail `QRY_PLAYLISTTRACK` dan **EditorType** menjadi `dpeMasterDetail`. Hanya saja data yang tampil pada tampilan _grid_ depan hanyak data master saja. Agar data detail dapat juga ditampilkan di depan, maka tambahkan satu **Table** lagi dengan mengatur **DatasetName** dengan dataset detail `QRY_PLAYLISTTRACK`.
+
+Untuk membuatnya kita hapus terlebih dahulu **Multitable1** dengan meng-klik tombol **Remove**.
+
+![Remove - Multitable1](/images/remove-multitable1.png)
+
+Tambahkan **Table**, kemudian isi **DatasetName** dengan dataset master `QRY_PLAYLIST` **DatasetDetailName** dan **EditorType** menjadi `dpeMasterDetail`.
+
+![Table1 - Master](/images/form-add-table1-master.png)
+
+Tambahkan lagi **Table** dengan posisi sejajar dengan `Table1`, kemudian isi **DatasetName** dengan dataset detail `QRY_PLAYLISTTRACK`.
+
+![Table1 - Detail](/images/form-add-table1-detail.png)
+
+Klik tombol **Refresh Preview** atau **Preview Modal** untuk melihat perubahan yang terjadi.
+
+![Preview Form Playlist - Table](/images/preview-form-playlist-table.png)
