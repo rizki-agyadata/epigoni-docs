@@ -53,7 +53,11 @@ Selanjutnya buatlah [Data Package](../datapackages/README.md) baik dengan cara [
 
 ![QRY_PLAYLIST - Generate Data Package](/images/qry-playlist-generate-data-package.png)
 
-Setelah _data package_ terbentuk, buka / ubah _data package_ tersebut, kemudian pada **Data Package Editor**, klik tombol **Add Child** pada `QRY_PLAYLIST` .
+Setelah _data package_ terbentuk, klik kanan pada dataset `QRY_PLAYLIST` kemudian klik tombol `Go To Data Package` untuk menuju _data package_ yang telah dibuat.
+
+![Go To Data Package](/images/go-to-datapackage-playlist.png)
+
+Edit _data package_ tersebut, kemudian pada **Data Package Editor**, klik tombol **Add Child** pada `QRY_PLAYLIST`.
 
 ![PKG_PLAYLIST - Add Child](/images/pkg_playlist-add-child.png)
 
@@ -85,19 +89,23 @@ Untuk membuat form, lakukan seperti pada langkah pembuatan _data package_ di ata
 
 ![PKG_PLAYLIST - Generate Form](/images/pkg-playlist-generate-form.png)
 
-Kemudian pada form yang telah terbentuk, klik tombol **Design**.
+Setelah form terbentuk, klik kanan dan pilih **Go To Presentation** untuk membuka form tersebut.
+
+![Go To Presentation](/images/go-to-presentation-frm-playlist.png)
+
+Selanjutnya, klik tombol **Design**.
 
 ![FRM_PLAYLIST - Tombol Design](/images/frm-playlist-tombol-design.png)
 
-Pada **Standard Form Designer**, klik tab **Content**, kemudian klik pada **MultiTable1**, kemudian isi **DatasetName** dengan `QRY_PLAYLIST` dan **DatasetDetailName** dengan `QRY_PLAYLISTTRACK` seperti pada gambar berikut.
+Pada **Standard Form Designer**, klik tab **Content**, kemudian klik pada **MultiTable1**, selanjutnya isi **DatasetName** dengan `QRY_PLAYLIST` dan **DatasetDetailName** dengan `QRY_PLAYLISTTRACK` seperti pada gambar berikut.
 
 ![FRM_PLAYLIST - Dataset Master dan Detail](/images/form-pengaturan-dataset-master-detail.png)
 
-Selanjutnya pada **EditorType** pilih `dpeMasterDetail`.
+_Scroll_ ke bawah dan ubah **EditorType** menjadi `dpeMasterDetail`.
 
 ![FRM_PLAYLIST - Editor Type](/images/editor-type-dpemasterdetail.png)
 
-Sampai pada tahap ini, penerapan konsep Master-Detail telah terpenuhi. Untuk mencobanya, klik tombol **Refresh Preview** atau **Preview Modal**. Form Playlist akan tampak seperti pada gambar berikut.
+Sampai pada tahap ini, penerapan konsep Master-Detail telah terpenuhi. Untuk melihat hasilnya, klik tombol **Refresh Preview** atau **Preview Modal**. Form Playlist akan tampak seperti pada gambar berikut.
 
 ![FRM_PLAYLIST - Master Detail - Edit Mode](/images/form-playlist-master-detail-edit.png)
 
@@ -105,11 +113,11 @@ Lakukan proses tambah atau ubah untuk memastikan form Master-Detail telah berfun
 
 ---
 
-Selain menggunakan **MultiTable**, form Master-Detail dapat juga dibuat dengan menggunakan **Table**. Prinsipnya sama dengan **MultiTable** yaitu mengatur **DatasetName** dengan dataset master `QRY_PLAYLIST` **DatasetDetailName** dengan dataset detail `QRY_PLAYLISTTRACK` dan **EditorType** menjadi `dpeMasterDetail`. Hanya saja data yang tampil pada tampilan _grid_ depan hanya data atau _grid_ master saja.
+Selain menggunakan **MultiTable**, form Master-Detail dapat juga dibuat dengan menggunakan **Table**. Prinsipnya sama dengan **MultiTable** yaitu mengatur **DatasetName** dengan dataset master (`QRY_PLAYLIST`) **DatasetDetailName** dengan dataset detail (`QRY_PLAYLISTTRACK`) dan **EditorType** menjadi `dpeMasterDetail`. Hanya saja data yang tampil pada tampilan _grid_ depan hanya data atau _grid_ master saja.
 
-Supaya data detail dapat juga ditampilkan pada bagian depan form, maka tambahkan satu **Table** lagi dengan mengatur **DatasetName** dengan dataset detail `QRY_PLAYLISTTRACK`.
+Supaya data atau _grid_ detail dapat juga ditampilkan pada bagian depan form, maka tambahkan satu **Table** lagi dengan mengatur **DatasetName** dengan dataset detail `QRY_PLAYLISTTRACK`.
 
-Untuk membuatnya kita hapus terlebih dahulu **Multitable1** dengan meng-klik tombol **Remove**.
+Untuk membuatnya, terlebih dahulu kita hapus **Multitable1** dengan mengklik tombol **Remove**.
 
 ![Remove - Multitable1](/images/remove-multitable1.png)
 
@@ -121,7 +129,7 @@ Isi **DatasetName** dengan dataset master yaitu `QRY_PLAYLIST` dan **EditorType*
 
 ![Table1 - Master](/images/form-add-table1-master.png)
 
-Tambahkan lagi **Table** dengan posisi sejajar dengan `Table1`, kemudian isi **DatasetName** dengan dataset detail yaitu `QRY_PLAYLISTTRACK`.
+Tambahkan lagi **Table**, kemudian isi **DatasetName** dengan dataset detail yaitu `QRY_PLAYLISTTRACK`.
 
 ![Table1 - Detail](/images/form-add-table1-detail.png)
 
@@ -131,6 +139,8 @@ Klik tombol **Refresh Preview** atau **Preview Modal** untuk melihat perubahan y
 
 Seperti yang terlihat pada gambar di atas, masin-masing _grid_ memiliki set tombol yaitu **Add**, **Edit**, dan **Delete**. Pada Kebanyakan kasus, untuk _grid_ detail biasanya tidak perlu ditampilkan set tombol kecuali pada mode tambah atau ubah pada data master.
 
-Untuk menghilangkan tombol Add, Edit, dan Delete pada _grid_ detail, ubah nilai **ShowAddButton**, **ShowEditButton**, dan **ShowDeleteButton** menjadi `False` pada **Table2**.
+Untuk menghilangkan tombol Add, Edit, dan Delete pada _grid_ detail, ubahlah nilai **ShowAddButton**, **ShowEditButton**, dan **ShowDeleteButton** menjadi `False` pada **Table2**.
 
 ![False Button](/images/tabel-detail-false-button.png)
+
+Klik tombol **Refresh Preview** atau **Preview Modal** untuk melihat hasilnya.

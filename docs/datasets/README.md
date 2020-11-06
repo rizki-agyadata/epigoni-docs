@@ -13,3 +13,4 @@ sidebarDepth: 3
 - [Updateable](../datasets/upd.md)
 - [Visible Dan Enable](../datasets/visible-enable.md)
 - [Control Position](../datasets/ds-control-position.md)
+- [Master-Detail](../datasets/master-detail.md)

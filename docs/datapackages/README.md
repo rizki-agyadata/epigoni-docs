@@ -6,3 +6,4 @@ sidebarDepth: 3
 
 - [Membuat Data Package Baru](../datapackages/datapackage-baru.md)
 - [Parameter Data Package](../datapackages/parameter-datapackage.md)
+- [Master-Detail](../datasets/master-detail.md)
