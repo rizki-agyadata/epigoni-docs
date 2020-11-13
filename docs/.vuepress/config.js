@@ -71,7 +71,7 @@ module.exports = {
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       "/lookups/": ["", "standard", "custom-values"],
       "/sqlvalues/": ["", "sqlvalue-baru"],
-      "/forms/": ["", "form-baru"],
+      "/forms/": ["", "form-baru", "param-subtitution"],
       "/actions-metadata/": ["", "action-baru"],
       "/menus/": ["", "ribbon", "tool-bar", "side-menu"],
       "/application-metadata/": ["", "roles", "users"],
