@@ -66,7 +66,9 @@ module.exports = {
         "upd",
         "visible-enable",
         "ds-control-position",
+        "create-lookup-field",
         "master-detail"
+        
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
       "/lookups/": ["", "standard", "custom-values"],

@@ -13,4 +13,5 @@ sidebarDepth: 3
 - [Updateable](../datasets/upd.md)
 - [Visible Dan Enable](../datasets/visible-enable.md)
 - [Control Position](../datasets/ds-control-position.md)
+- [Create Lookup Field](../datasets/create-lookup-field.md)
 - [Master-Detail](../datasets/master-detail.md)
