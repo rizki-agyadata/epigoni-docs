@@ -2,11 +2,11 @@
 sidebarDepth: 3
 ---
 
+# Create Lookup Field
+
 ::: warning
 Tutorial ini masih dalam proses pengerjaan.
 :::
-
-# Create Lookup Field
 
 ![Button - Create Lookup Field](/images/btn-create-lookup-field.png)
 

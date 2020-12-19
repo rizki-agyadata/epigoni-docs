@@ -18,10 +18,6 @@ Pada tutorial kali ini kita akan membuat _lookup_ yang menampilkan data dari tab
   - Connection, diisi dengan koneksi ke _database_ data atau bisnis proses yang digunakan.
   - Lookup Type`STANDARD`.
 
-  ::: tip
-  Jika **Command Text** sudah terisi, untuk Key Field dan Display Fields bisa dengan mengklik tombol disebelahnya masing-masing, maka akan otomatis terisi dengan `ARTISTID` dan `NAME`.
-  :::
-
 - Isi **Command Text** seperti berikut.
 
 ```SQL

@@ -65,13 +65,11 @@ module.exports = {
         "parameter-dataset",
         "upd",
         "visible-enable",
-        "ds-control-position",
-        "create-lookup-field",
+        "ds-control-position",        
         "master-detail"
-        
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
-      "/lookups/": ["", "standard", "custom-values"],
+      "/lookups/": ["", "standard", "custom-values", "create-lookup-field"],
       "/sqlvalues/": ["", "sqlvalue-baru"],
       "/forms/": ["", "form-baru", "param-subtitution"],
       "/actions-metadata/": ["", "action-baru"],
