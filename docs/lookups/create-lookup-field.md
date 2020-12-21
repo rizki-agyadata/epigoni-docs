@@ -4,15 +4,15 @@ sidebarDepth: 3
 
 # Create Lookup Field
 
-::: warning
-Tutorial ini masih dalam proses pengerjaan.
-:::
-
-**Create Lookup Field** adalah tombol yang terdapat pada **Dataset Editor** di _tab_ **Fields**, yang berfungsi untuk membuat _field lookup_.
+**Create Lookup Field** adalah tombol yang terdapat pada **Dataset Editor** di _tab_ **Fields**, yang berfungsi untuk membuat sebuah _field lookup_ dari satu _field_ pada sebuah _dataset_.
 
 ![Button - Create Lookup Field](/images/btn-create-lookup-field.png)
 
-Sebagai contoh, misalnya kita memiliki sebuah [dataset](../datasets/dataset-baru.md) dengan _SQL statement_ pada **Command Text** seperti berikut:
+Tidak seperti [Lookup Definition](../lookups/standard.md) dimana _field_ akan berubah dari tipe _control_ _Edit Box_ menjadi _Combo Box_, pada _lookup_ ini _field_ sumber/asli tidak akan terjadi perubahan apapun, hanya _field_ baru akan terbentuk sebagai _lookup_ dengan tampilan yang sama seperti [Lookup Definition](../lookups/standard.md).
+
+Untuk penamaan _field lookup_ yang terbentuk adalah nama _field_ sumber + akhiran **\_DESC**, misalnya _field_ sumbarnya adalah **ARTISTID** maka _field lookup_-nya menjadi **ARTISTID_DESC**.
+
+Pada tutorial kali ini kita akan membuat _field lookup_ dari _field_ **ARTISTID** dari sebuah [dataset](../datasets/dataset-baru.md) dengan _SQL statement_ pada **Command Text** seperti berikut:
 
 ```sql
  SELECT
@@ -45,7 +45,7 @@ Ketika data **ARTISTID** diubah, maka data (_lookup field_) **ARTISTID_DESC** pu
 
 ![ARTISTID and ARTISTID_DESC](/images/artisid-and-artistid_desc.png)
 
-Supaya tampilannya menjadi lebih baik, kita lakukan perubahan pada field ARTISTID dan ARTISTID_DESC pada Dataset Editor.
+Supaya tampilannya menjadi lebih baik, kita dapat melakukan sedikit perubahan pada field ARTISTID dan ARTISTID_DESC pada Dataset Editor seperti berikut.
 
 ![Edit View - ARTISTID and ARTISTID_DESC](/images/edit-view-field-lookup.png)
 
