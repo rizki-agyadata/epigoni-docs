@@ -8,7 +8,7 @@ sidebarDepth: 3
 Tutorial ini masih dalam proses pengerjaan.
 :::
 
-**Create Lookup Field** adalah tombol yang terdapat dalam **Dataset Editor** pada _tab_ **Fields**, yang berfungsi untuk membuat _field lookup_.
+**Create Lookup Field** adalah tombol yang terdapat pada **Dataset Editor** di _tab_ **Fields**, yang berfungsi untuk membuat _field lookup_.
 
 ![Button - Create Lookup Field](/images/btn-create-lookup-field.png)
 
@@ -40,3 +40,27 @@ _Lookup field_ yang terbentuk dengan nama **ARTISTID_DESC** seperti pada gambar 
 Lakukan **Preview** untuk melihat hasilnya.
 
 ![ARTISTID_DESC - Preview](/images/artistid_desc-preview.png)
+
+Ketika data **ARTISTID** diubah, maka data (_lookup field_) **ARTISTID_DESC** pun berubah, begitu juga sebaliknya.
+
+![ARTISTID and ARTISTID_DESC](/images/artisid-and-artistid_desc.png)
+
+Supaya tampilannya menjadi lebih baik, kita lakukan perubahan pada field ARTISTID dan ARTISTID_DESC pada Dataset Editor.
+
+![Edit View - ARTISTID and ARTISTID_DESC](/images/edit-view-field-lookup.png)
+
+ARTISTID
+
+- Label Caption : Artist
+- VB (Visible on Browse) : False
+- DW (Draw Width) : 5
+
+ARTISTID_DESC
+
+- Field Caption : Artist
+- Label Caption : (kosong)
+- NL (New Line) : False
+
+Berikut adalah tampilan hasilnya.
+
+![Preview - ARTISTID and ARTISTID_DESC](/images/lookup-field-artist-preview.png)
