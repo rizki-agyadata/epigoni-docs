@@ -28,6 +28,7 @@ module.exports = {
           { text: "Actions", link: "/actions-metadata/" },
           { text: "Menus", link: "/menus/" },
           { text: "Application", link: "/application-metadata/" },
+          { text: "Scripts", link: "/epigoni-script/" },
         ],
       },
       { text: "Versi 1.2", link: "/guide/" },
@@ -65,7 +66,7 @@ module.exports = {
         "parameter-dataset",
         "upd",
         "visible-enable",
-        "ds-control-position",        
+        "ds-control-position",
         "master-detail"
       ],
       "/datapackages/": ["", "datapackage-baru", "parameter-datapackage"],
@@ -75,6 +76,7 @@ module.exports = {
       "/actions-metadata/": ["", "action-baru"],
       "/menus/": ["", "ribbon", "tool-bar", "side-menu"],
       "/application-metadata/": ["", "roles", "users"],
+      "/epigoni-script/": ["", "script-list"],
       // fallback
       "/": [""],
     },
